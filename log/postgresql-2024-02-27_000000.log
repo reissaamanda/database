@@ -1,0 +1,8 @@
+2024-02-27 22:02:34.026 +07 [3968] ERROR:  syntax error at or near "in" at character 68
+2024-02-27 22:02:34.026 +07 [3968] STATEMENT:  select a.first_name, a.last_name
+	from actor a
+	where a.actor_id = in (
+	select fa.actor_id
+	from film_actor fa
+	join film f on fa.film_id = f.film_id
+	where f.title = 'BREAKFAST GOLDFINGER') 

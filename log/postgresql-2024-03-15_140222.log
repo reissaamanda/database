@@ -1,0 +1,895 @@
+2024-03-15 14:02:22.677 +07 [6200] LOG:  starting PostgreSQL 14.11, compiled by Visual C++ build 1937, 64-bit
+2024-03-15 14:02:22.835 +07 [6200] LOG:  listening on IPv6 address "::", port 5432
+2024-03-15 14:02:22.835 +07 [6200] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-03-15 14:02:24.170 +07 [4412] LOG:  database system was shut down at 2024-03-15 10:34:48 +07
+2024-03-15 14:02:24.729 +07 [6200] LOG:  database system is ready to accept connections
+2024-03-18 01:37:09.981 +07 [18588] ERROR:  relation "public.cusmoters" does not exist at character 143
+2024-03-18 01:37:09.981 +07 [18588] STATEMENT:  SELECT
+	custtomerid
+	, companyname
+	, contactname
+	, contacttitle
+	, address
+	, city
+	, region
+	, postalcode
+	, country
+	, phone
+	, fax
+	FROM public.cusmoters
+2024-03-18 01:38:12.245 +07 [16104] ERROR:  relation "public.cusmoters" does not exist at character 145
+2024-03-18 01:38:12.245 +07 [16104] STATEMENT:  SELECT
+	  custtomerid
+	, companyname
+	, contactname
+	, contacttitle
+	, address
+	, city
+	, region
+	, postalcode
+	, country
+	, phone
+	, fax
+	FROM public.cusmoters
+2024-03-18 01:38:52.467 +07 [19444] ERROR:  relation "public.cusmoters" does not exist at character 144
+2024-03-18 01:38:52.467 +07 [19444] STATEMENT:  SELECT
+	  customerid
+	, companyname
+	, contactname
+	, contacttitle
+	, address
+	, city
+	, region
+	, postalcode
+	, country
+	, phone
+	, fax
+	FROM public.cusmoters
+2024-03-18 01:39:29.545 +07 [2192] ERROR:  relation "public.cusmoters" does not exist at character 144
+2024-03-18 01:39:29.545 +07 [2192] STATEMENT:  SELECT
+	  customerid
+	, companyname
+	, contactname
+	, contacttitle
+	, address
+	, city
+	, region
+	, postalcode
+	, country
+	, phone
+	, fax
+	FROM public.cusmoters
+2024-03-18 01:39:29.546 +07 [2192] ERROR:  relation "public.cusmoters" does not exist at character 144
+2024-03-18 01:39:29.546 +07 [2192] STATEMENT:  SELECT
+	  customerid
+	, companyname
+	, contactname
+	, contacttitle
+	, address
+	, city
+	, region
+	, postalcode
+	, country
+	, phone
+	, fax
+	FROM public.cusmoters
+2024-03-18 01:39:36.975 +07 [19156] ERROR:  relation "public.cusmoters" does not exist at character 144
+2024-03-18 01:39:36.975 +07 [19156] STATEMENT:  SELECT
+	  customerid
+	, companyname
+	, contactname
+	, contacttitle
+	, address
+	, city
+	, region
+	, postalcode
+	, country
+	, phone
+	, fax
+	FROM public.cusmoters
+2024-03-18 01:41:24.599 +07 [18596] ERROR:  relation "public.cusmoters" does not exist at character 144
+2024-03-18 01:41:24.599 +07 [18596] STATEMENT:  SELECT
+	  customerid
+	, companyname
+	, contactname
+	, contacttitle
+	, address
+	, city
+	, region
+	, postalcode
+	, country
+	, phone
+	, fax
+	FROM public.cusmoters
+2024-03-18 01:41:24.600 +07 [18596] ERROR:  relation "public.cusmoters" does not exist at character 144
+2024-03-18 01:41:24.600 +07 [18596] STATEMENT:  SELECT
+	  customerid
+	, companyname
+	, contactname
+	, contacttitle
+	, address
+	, city
+	, region
+	, postalcode
+	, country
+	, phone
+	, fax
+	FROM public.cusmoters
+2024-03-18 01:41:24.700 +07 [16576] ERROR:  relation "public.cusmoters" does not exist at character 144
+2024-03-18 01:41:24.700 +07 [16576] STATEMENT:  SELECT
+	  customerid
+	, companyname
+	, contactname
+	, contacttitle
+	, address
+	, city
+	, region
+	, postalcode
+	, country
+	, phone
+	, fax
+	FROM public.cusmoters
+2024-03-18 01:41:24.700 +07 [16576] ERROR:  relation "public.cusmoters" does not exist at character 144
+2024-03-18 01:41:24.700 +07 [16576] STATEMENT:  SELECT
+	  customerid
+	, companyname
+	, contactname
+	, contacttitle
+	, address
+	, city
+	, region
+	, postalcode
+	, country
+	, phone
+	, fax
+	FROM public.cusmoters
+2024-03-18 01:42:23.181 +07 [19040] ERROR:  relation "public.cusmoters" does not exist at character 144
+2024-03-18 01:42:23.181 +07 [19040] STATEMENT:  SELECT
+	  customerid
+	, companyname
+	, contactname
+	, contacttitle
+	, address
+	, city
+	, region
+	, postalcode
+	, country
+	, phone
+	, fax
+	FROM public.cusmoters
+2024-03-18 02:07:38.549 +07 [18380] ERROR:  relation "dim table name" does not exist at character 15
+2024-03-18 02:07:38.549 +07 [18380] STATEMENT:  SELECT * FROM "dim table name" limit 1
+2024-03-18 02:07:38.550 +07 [18380] ERROR:  relation "dim table name" does not exist at character 15
+2024-03-18 02:07:38.550 +07 [18380] STATEMENT:  SELECT * FROM "dim table name" limit 1
+2024-03-18 02:07:38.637 +07 [16732] ERROR:  relation "dim table name" does not exist at character 15
+2024-03-18 02:07:38.637 +07 [16732] STATEMENT:  SELECT * FROM "dim table name" limit 1
+2024-03-18 02:07:38.638 +07 [16732] ERROR:  relation "dim table name" does not exist at character 15
+2024-03-18 02:07:38.638 +07 [16732] STATEMENT:  SELECT * FROM "dim table name" limit 1
+2024-03-18 02:07:38.734 +07 [5688] ERROR:  relation "dim table name" does not exist at character 15
+2024-03-18 02:07:38.734 +07 [5688] STATEMENT:  SELECT * FROM "dim table name" limit 1
+2024-03-18 02:07:38.735 +07 [5688] ERROR:  relation "dim table name" does not exist at character 15
+2024-03-18 02:07:38.735 +07 [5688] STATEMENT:  SELECT * FROM "dim table name" limit 1
+2024-03-18 02:09:37.492 +07 [13528] ERROR:  relation "p.dim table name" does not exist at character 15
+2024-03-18 02:09:37.492 +07 [13528] STATEMENT:  SELECT * FROM p."dim table name" limit 1
+2024-03-18 02:09:37.492 +07 [13528] ERROR:  relation "p.dim table name" does not exist at character 15
+2024-03-18 02:09:37.492 +07 [13528] STATEMENT:  SELECT * FROM p."dim table name" limit 1
+2024-03-18 02:09:37.702 +07 [264] ERROR:  relation "pu.dim table name" does not exist at character 15
+2024-03-18 02:09:37.702 +07 [264] STATEMENT:  SELECT * FROM pu."dim table name" limit 1
+2024-03-18 02:09:37.702 +07 [264] ERROR:  relation "pu.dim table name" does not exist at character 15
+2024-03-18 02:09:37.702 +07 [264] STATEMENT:  SELECT * FROM pu."dim table name" limit 1
+2024-03-18 02:09:38.006 +07 [2160] ERROR:  relation "pub.dim table name" does not exist at character 15
+2024-03-18 02:09:38.006 +07 [2160] STATEMENT:  SELECT * FROM pub."dim table name" limit 1
+2024-03-18 02:09:38.007 +07 [2160] ERROR:  relation "pub.dim table name" does not exist at character 15
+2024-03-18 02:09:38.007 +07 [2160] STATEMENT:  SELECT * FROM pub."dim table name" limit 1
+2024-03-18 02:09:38.306 +07 [13960] ERROR:  relation "publ.dim table name" does not exist at character 15
+2024-03-18 02:09:38.306 +07 [13960] STATEMENT:  SELECT * FROM publ."dim table name" limit 1
+2024-03-18 02:09:38.307 +07 [13960] ERROR:  relation "publ.dim table name" does not exist at character 15
+2024-03-18 02:09:38.307 +07 [13960] STATEMENT:  SELECT * FROM publ."dim table name" limit 1
+2024-03-18 02:09:38.591 +07 [11104] ERROR:  relation "publi.dim table name" does not exist at character 15
+2024-03-18 02:09:38.591 +07 [11104] STATEMENT:  SELECT * FROM publi."dim table name" limit 1
+2024-03-18 02:09:38.592 +07 [11104] ERROR:  relation "publi.dim table name" does not exist at character 15
+2024-03-18 02:09:38.592 +07 [11104] STATEMENT:  SELECT * FROM publi."dim table name" limit 1
+2024-03-18 02:09:38.888 +07 [17064] ERROR:  relation "public.dim table name" does not exist at character 15
+2024-03-18 02:09:38.888 +07 [17064] STATEMENT:  SELECT * FROM "public"."dim table name" limit 1
+2024-03-18 02:09:38.888 +07 [17064] ERROR:  relation "public.dim table name" does not exist at character 15
+2024-03-18 02:09:38.888 +07 [17064] STATEMENT:  SELECT * FROM "public"."dim table name" limit 1
+2024-03-18 02:09:54.184 +07 [17988] ERROR:  relation "public.dim t" does not exist at character 15
+2024-03-18 02:09:54.184 +07 [17988] STATEMENT:  SELECT * FROM "public"."dim t" limit 1
+2024-03-18 02:09:54.184 +07 [17988] ERROR:  relation "public.dim t" does not exist at character 15
+2024-03-18 02:09:54.184 +07 [17988] STATEMENT:  SELECT * FROM "public"."dim t" limit 1
+2024-03-18 02:09:54.481 +07 [1496] ERROR:  relation "public.dim " does not exist at character 15
+2024-03-18 02:09:54.481 +07 [1496] STATEMENT:  SELECT * FROM "public"."dim " limit 1
+2024-03-18 02:09:54.482 +07 [1496] ERROR:  relation "public.dim " does not exist at character 15
+2024-03-18 02:09:54.482 +07 [1496] STATEMENT:  SELECT * FROM "public"."dim " limit 1
+2024-03-18 02:09:55.336 +07 [13276] ERROR:  relation "public.dim" does not exist at character 15
+2024-03-18 02:09:55.336 +07 [13276] STATEMENT:  SELECT * FROM "public".dim limit 1
+2024-03-18 02:09:55.337 +07 [13276] ERROR:  relation "public.dim" does not exist at character 15
+2024-03-18 02:09:55.337 +07 [13276] STATEMENT:  SELECT * FROM "public".dim limit 1
+2024-03-18 02:09:56.378 +07 [9672] ERROR:  relation "public.dim_" does not exist at character 15
+2024-03-18 02:09:56.378 +07 [9672] STATEMENT:  SELECT * FROM "public".dim_ limit 1
+2024-03-18 02:09:56.380 +07 [9672] ERROR:  relation "public.dim_" does not exist at character 15
+2024-03-18 02:09:56.380 +07 [9672] STATEMENT:  SELECT * FROM "public".dim_ limit 1
+2024-03-18 02:10:00.534 +07 [8996] ERROR:  relation "public.dim_c" does not exist at character 15
+2024-03-18 02:10:00.534 +07 [8996] STATEMENT:  SELECT * FROM "public".dim_c limit 1
+2024-03-18 02:10:00.535 +07 [8996] ERROR:  relation "public.dim_c" does not exist at character 15
+2024-03-18 02:10:00.535 +07 [8996] STATEMENT:  SELECT * FROM "public".dim_c limit 1
+2024-03-18 02:10:00.714 +07 [16512] ERROR:  relation "public.dim_cu" does not exist at character 15
+2024-03-18 02:10:00.714 +07 [16512] STATEMENT:  SELECT * FROM "public".dim_cu limit 1
+2024-03-18 02:10:00.714 +07 [16512] ERROR:  relation "public.dim_cu" does not exist at character 15
+2024-03-18 02:10:00.714 +07 [16512] STATEMENT:  SELECT * FROM "public".dim_cu limit 1
+2024-03-18 02:10:01.026 +07 [13476] ERROR:  relation "public.dim_cus" does not exist at character 15
+2024-03-18 02:10:01.026 +07 [13476] STATEMENT:  SELECT * FROM "public".dim_cus limit 1
+2024-03-18 02:10:01.026 +07 [13476] ERROR:  relation "public.dim_cus" does not exist at character 15
+2024-03-18 02:10:01.026 +07 [13476] STATEMENT:  SELECT * FROM "public".dim_cus limit 1
+2024-03-18 02:10:02.716 +07 [12504] ERROR:  relation "public.dim_cust" does not exist at character 15
+2024-03-18 02:10:02.716 +07 [12504] STATEMENT:  SELECT * FROM "public".dim_cust limit 1
+2024-03-18 02:10:02.716 +07 [12504] ERROR:  relation "public.dim_cust" does not exist at character 15
+2024-03-18 02:10:02.716 +07 [12504] STATEMENT:  SELECT * FROM "public".dim_cust limit 1
+2024-03-18 02:10:03.273 +07 [1584] ERROR:  relation "public.dim_custo" does not exist at character 15
+2024-03-18 02:10:03.273 +07 [1584] STATEMENT:  SELECT * FROM "public".dim_custo limit 1
+2024-03-18 02:10:03.274 +07 [1584] ERROR:  relation "public.dim_custo" does not exist at character 15
+2024-03-18 02:10:03.274 +07 [1584] STATEMENT:  SELECT * FROM "public".dim_custo limit 1
+2024-03-18 02:10:03.541 +07 [16708] ERROR:  relation "public.dim_custom" does not exist at character 15
+2024-03-18 02:10:03.541 +07 [16708] STATEMENT:  SELECT * FROM "public".dim_custom limit 1
+2024-03-18 02:10:03.542 +07 [16708] ERROR:  relation "public.dim_custom" does not exist at character 15
+2024-03-18 02:10:03.542 +07 [16708] STATEMENT:  SELECT * FROM "public".dim_custom limit 1
+2024-03-18 02:10:03.764 +07 [2172] ERROR:  relation "public.dim_custome" does not exist at character 15
+2024-03-18 02:10:03.764 +07 [2172] STATEMENT:  SELECT * FROM "public".dim_custome limit 1
+2024-03-18 02:10:03.764 +07 [2172] ERROR:  relation "public.dim_custome" does not exist at character 15
+2024-03-18 02:10:03.764 +07 [2172] STATEMENT:  SELECT * FROM "public".dim_custome limit 1
+2024-03-18 02:10:04.011 +07 [18316] ERROR:  relation "public.dim_customer" does not exist at character 15
+2024-03-18 02:10:04.011 +07 [18316] STATEMENT:  SELECT * FROM "public".dim_customer limit 1
+2024-03-18 02:10:04.012 +07 [18316] ERROR:  relation "public.dim_customer" does not exist at character 15
+2024-03-18 02:10:04.012 +07 [18316] STATEMENT:  SELECT * FROM "public".dim_customer limit 1
+2024-03-18 02:15:43.225 +07 [6160] ERROR:  relation "public.dim_customer" does not exist at character 15
+2024-03-18 02:15:43.225 +07 [6160] STATEMENT:  SELECT * FROM "public".dim_customer limit 1
+2024-03-18 02:15:43.226 +07 [6160] ERROR:  relation "public.dim_customer" does not exist at character 15
+2024-03-18 02:15:43.226 +07 [6160] STATEMENT:  SELECT * FROM "public".dim_customer limit 1
+2024-03-18 02:16:02.445 +07 [13476] ERROR:  relation "public.dim_customer" does not exist at character 15
+2024-03-18 02:16:02.445 +07 [13476] STATEMENT:  SELECT * FROM "public".dim_customer limit 1
+2024-03-18 02:16:12.712 +07 [10984] ERROR:  relation "public.dim_customer" does not exist at character 15
+2024-03-18 02:16:12.712 +07 [10984] STATEMENT:  SELECT * FROM "public".dim_customer limit 1
+2024-03-18 02:17:11.247 +07 [17816] ERROR:  relation "public.dim_customer" does not exist at character 15
+2024-03-18 02:17:11.247 +07 [17816] STATEMENT:  SELECT * FROM "public".dim_customer limit 1
+2024-03-18 02:17:11.248 +07 [17816] ERROR:  relation "public.dim_customer" does not exist at character 15
+2024-03-18 02:17:11.248 +07 [17816] STATEMENT:  SELECT * FROM "public".dim_customer limit 1
+2024-03-18 02:17:11.248 +07 [17816] ERROR:  relation "public.dim_customer" does not exist at character 15
+2024-03-18 02:17:11.248 +07 [17816] STATEMENT:  SELECT * FROM "public".dim_customer limit 1
+2024-03-18 02:32:29.080 +07 [3908] ERROR:  relation "dim table name" does not exist at character 15
+2024-03-18 02:32:29.080 +07 [3908] STATEMENT:  SELECT * FROM "dim table name" limit 1
+2024-03-18 02:32:29.080 +07 [3908] ERROR:  relation "dim table name" does not exist at character 15
+2024-03-18 02:32:29.080 +07 [3908] STATEMENT:  SELECT * FROM "dim table name" limit 1
+2024-03-18 02:32:29.176 +07 [2996] ERROR:  relation "dim table name" does not exist at character 15
+2024-03-18 02:32:29.176 +07 [2996] STATEMENT:  SELECT * FROM "dim table name" limit 1
+2024-03-18 02:32:29.177 +07 [2996] ERROR:  relation "dim table name" does not exist at character 15
+2024-03-18 02:32:29.177 +07 [2996] STATEMENT:  SELECT * FROM "dim table name" limit 1
+2024-03-18 02:32:29.286 +07 [16800] ERROR:  relation "dim table name" does not exist at character 15
+2024-03-18 02:32:29.286 +07 [16800] STATEMENT:  SELECT * FROM "dim table name" limit 1
+2024-03-18 02:32:29.287 +07 [16800] ERROR:  relation "dim table name" does not exist at character 15
+2024-03-18 02:32:29.287 +07 [16800] STATEMENT:  SELECT * FROM "dim table name" limit 1
+2024-03-18 02:32:44.689 +07 [11332] ERROR:  relation "dim table name" does not exist at character 15
+2024-03-18 02:32:44.689 +07 [11332] STATEMENT:  SELECT * FROM "dim table name" limit 1
+2024-03-18 02:32:44.690 +07 [11332] ERROR:  relation "dim table name" does not exist at character 15
+2024-03-18 02:32:44.690 +07 [11332] STATEMENT:  SELECT * FROM "dim table name" limit 1
+2024-03-18 02:32:44.876 +07 [14188] ERROR:  relation "dim table name" does not exist at character 15
+2024-03-18 02:32:44.876 +07 [14188] STATEMENT:  SELECT * FROM "dim table name" limit 1
+2024-03-18 02:32:44.877 +07 [14188] ERROR:  relation "dim table name" does not exist at character 15
+2024-03-18 02:32:44.877 +07 [14188] STATEMENT:  SELECT * FROM "dim table name" limit 1
+2024-03-18 02:32:44.975 +07 [6508] ERROR:  relation "dim table name" does not exist at character 15
+2024-03-18 02:32:44.975 +07 [6508] STATEMENT:  SELECT * FROM "dim table name" limit 1
+2024-03-18 02:32:44.975 +07 [6508] ERROR:  relation "dim table name" does not exist at character 15
+2024-03-18 02:32:44.975 +07 [6508] STATEMENT:  SELECT * FROM "dim table name" limit 1
+2024-03-18 02:33:33.222 +07 [13684] ERROR:  relation "p.dim table name" does not exist at character 15
+2024-03-18 02:33:33.222 +07 [13684] STATEMENT:  SELECT * FROM p."dim table name" limit 1
+2024-03-18 02:33:33.222 +07 [13684] ERROR:  relation "p.dim table name" does not exist at character 15
+2024-03-18 02:33:33.222 +07 [13684] STATEMENT:  SELECT * FROM p."dim table name" limit 1
+2024-03-18 02:33:33.572 +07 [13720] ERROR:  relation "pu.dim table name" does not exist at character 15
+2024-03-18 02:33:33.572 +07 [13720] STATEMENT:  SELECT * FROM pu."dim table name" limit 1
+2024-03-18 02:33:33.573 +07 [13720] ERROR:  relation "pu.dim table name" does not exist at character 15
+2024-03-18 02:33:33.573 +07 [13720] STATEMENT:  SELECT * FROM pu."dim table name" limit 1
+2024-03-18 02:33:34.471 +07 [16684] ERROR:  relation "pub.dim table name" does not exist at character 15
+2024-03-18 02:33:34.471 +07 [16684] STATEMENT:  SELECT * FROM pub."dim table name" limit 1
+2024-03-18 02:33:34.471 +07 [16684] ERROR:  relation "pub.dim table name" does not exist at character 15
+2024-03-18 02:33:34.471 +07 [16684] STATEMENT:  SELECT * FROM pub."dim table name" limit 1
+2024-03-18 02:33:34.773 +07 [12800] ERROR:  relation "publ.dim table name" does not exist at character 15
+2024-03-18 02:33:34.773 +07 [12800] STATEMENT:  SELECT * FROM publ."dim table name" limit 1
+2024-03-18 02:33:34.774 +07 [12800] ERROR:  relation "publ.dim table name" does not exist at character 15
+2024-03-18 02:33:34.774 +07 [12800] STATEMENT:  SELECT * FROM publ."dim table name" limit 1
+2024-03-18 02:33:35.040 +07 [18564] ERROR:  relation "publi.dim table name" does not exist at character 15
+2024-03-18 02:33:35.040 +07 [18564] STATEMENT:  SELECT * FROM publi."dim table name" limit 1
+2024-03-18 02:33:35.040 +07 [18564] ERROR:  relation "publi.dim table name" does not exist at character 15
+2024-03-18 02:33:35.040 +07 [18564] STATEMENT:  SELECT * FROM publi."dim table name" limit 1
+2024-03-18 02:33:35.776 +07 [11104] ERROR:  relation "public.dim table name" does not exist at character 15
+2024-03-18 02:33:35.776 +07 [11104] STATEMENT:  SELECT * FROM "public"."dim table name" limit 1
+2024-03-18 02:33:35.777 +07 [11104] ERROR:  relation "public.dim table name" does not exist at character 15
+2024-03-18 02:33:35.777 +07 [11104] STATEMENT:  SELECT * FROM "public"."dim table name" limit 1
+2024-03-18 02:33:38.285 +07 [1796] ERROR:  relation "public.dim table nam" does not exist at character 15
+2024-03-18 02:33:38.285 +07 [1796] STATEMENT:  SELECT * FROM "public"."dim table nam" limit 1
+2024-03-18 02:33:38.286 +07 [1796] ERROR:  relation "public.dim table nam" does not exist at character 15
+2024-03-18 02:33:38.286 +07 [1796] STATEMENT:  SELECT * FROM "public"."dim table nam" limit 1
+2024-03-18 02:33:38.458 +07 [16512] ERROR:  relation "public.dim table na" does not exist at character 15
+2024-03-18 02:33:38.458 +07 [16512] STATEMENT:  SELECT * FROM "public"."dim table na" limit 1
+2024-03-18 02:33:38.458 +07 [16512] ERROR:  relation "public.dim table na" does not exist at character 15
+2024-03-18 02:33:38.458 +07 [16512] STATEMENT:  SELECT * FROM "public"."dim table na" limit 1
+2024-03-18 02:33:38.722 +07 [7680] ERROR:  relation "public.dim table n" does not exist at character 15
+2024-03-18 02:33:38.722 +07 [7680] STATEMENT:  SELECT * FROM "public"."dim table n" limit 1
+2024-03-18 02:33:38.723 +07 [7680] ERROR:  relation "public.dim table n" does not exist at character 15
+2024-03-18 02:33:38.723 +07 [7680] STATEMENT:  SELECT * FROM "public"."dim table n" limit 1
+2024-03-18 02:33:38.925 +07 [3132] ERROR:  relation "public.dim table " does not exist at character 15
+2024-03-18 02:33:38.925 +07 [3132] STATEMENT:  SELECT * FROM "public"."dim table " limit 1
+2024-03-18 02:33:38.925 +07 [3132] ERROR:  relation "public.dim table " does not exist at character 15
+2024-03-18 02:33:38.925 +07 [3132] STATEMENT:  SELECT * FROM "public"."dim table " limit 1
+2024-03-18 02:33:39.042 +07 [10932] ERROR:  relation "public.dim table" does not exist at character 15
+2024-03-18 02:33:39.042 +07 [10932] STATEMENT:  SELECT * FROM "public"."dim table" limit 1
+2024-03-18 02:33:39.042 +07 [10932] ERROR:  relation "public.dim table" does not exist at character 15
+2024-03-18 02:33:39.042 +07 [10932] STATEMENT:  SELECT * FROM "public"."dim table" limit 1
+2024-03-18 02:33:39.167 +07 [17852] ERROR:  relation "public.dim tabl" does not exist at character 15
+2024-03-18 02:33:39.167 +07 [17852] STATEMENT:  SELECT * FROM "public"."dim tabl" limit 1
+2024-03-18 02:33:39.167 +07 [17852] ERROR:  relation "public.dim tabl" does not exist at character 15
+2024-03-18 02:33:39.167 +07 [17852] STATEMENT:  SELECT * FROM "public"."dim tabl" limit 1
+2024-03-18 02:33:39.273 +07 [18660] ERROR:  relation "public.dim tab" does not exist at character 15
+2024-03-18 02:33:39.273 +07 [18660] STATEMENT:  SELECT * FROM "public"."dim tab" limit 1
+2024-03-18 02:33:39.273 +07 [18660] ERROR:  relation "public.dim tab" does not exist at character 15
+2024-03-18 02:33:39.273 +07 [18660] STATEMENT:  SELECT * FROM "public"."dim tab" limit 1
+2024-03-18 02:33:39.447 +07 [17832] ERROR:  relation "public.dim ta" does not exist at character 15
+2024-03-18 02:33:39.447 +07 [17832] STATEMENT:  SELECT * FROM "public"."dim ta" limit 1
+2024-03-18 02:33:39.453 +07 [17832] ERROR:  relation "public.dim ta" does not exist at character 15
+2024-03-18 02:33:39.453 +07 [17832] STATEMENT:  SELECT * FROM "public"."dim ta" limit 1
+2024-03-18 02:33:39.707 +07 [11444] ERROR:  relation "public.dim t" does not exist at character 15
+2024-03-18 02:33:39.707 +07 [11444] STATEMENT:  SELECT * FROM "public"."dim t" limit 1
+2024-03-18 02:33:39.708 +07 [11444] ERROR:  relation "public.dim t" does not exist at character 15
+2024-03-18 02:33:39.708 +07 [11444] STATEMENT:  SELECT * FROM "public"."dim t" limit 1
+2024-03-18 02:33:40.021 +07 [5416] ERROR:  relation "public.dim " does not exist at character 15
+2024-03-18 02:33:40.021 +07 [5416] STATEMENT:  SELECT * FROM "public"."dim " limit 1
+2024-03-18 02:33:40.022 +07 [5416] ERROR:  relation "public.dim " does not exist at character 15
+2024-03-18 02:33:40.022 +07 [5416] STATEMENT:  SELECT * FROM "public"."dim " limit 1
+2024-03-18 02:33:40.358 +07 [10704] ERROR:  relation "public.dim" does not exist at character 15
+2024-03-18 02:33:40.358 +07 [10704] STATEMENT:  SELECT * FROM "public".dim limit 1
+2024-03-18 02:33:40.358 +07 [10704] ERROR:  relation "public.dim" does not exist at character 15
+2024-03-18 02:33:40.358 +07 [10704] STATEMENT:  SELECT * FROM "public".dim limit 1
+2024-03-18 02:33:41.256 +07 [17436] ERROR:  relation "public.dim_" does not exist at character 15
+2024-03-18 02:33:41.256 +07 [17436] STATEMENT:  SELECT * FROM "public".dim_ limit 1
+2024-03-18 02:33:41.257 +07 [17436] ERROR:  relation "public.dim_" does not exist at character 15
+2024-03-18 02:33:41.257 +07 [17436] STATEMENT:  SELECT * FROM "public".dim_ limit 1
+2024-03-18 02:33:44.930 +07 [12060] ERROR:  relation "public.dim_s" does not exist at character 15
+2024-03-18 02:33:44.930 +07 [12060] STATEMENT:  SELECT * FROM "public".dim_s limit 1
+2024-03-18 02:33:44.931 +07 [12060] ERROR:  relation "public.dim_s" does not exist at character 15
+2024-03-18 02:33:44.931 +07 [12060] STATEMENT:  SELECT * FROM "public".dim_s limit 1
+2024-03-18 02:33:45.141 +07 [4732] ERROR:  relation "public.dim_sh" does not exist at character 15
+2024-03-18 02:33:45.141 +07 [4732] STATEMENT:  SELECT * FROM "public".dim_sh limit 1
+2024-03-18 02:33:45.142 +07 [4732] ERROR:  relation "public.dim_sh" does not exist at character 15
+2024-03-18 02:33:45.142 +07 [4732] STATEMENT:  SELECT * FROM "public".dim_sh limit 1
+2024-03-18 02:33:45.240 +07 [10340] ERROR:  relation "public.dim_shi" does not exist at character 15
+2024-03-18 02:33:45.240 +07 [10340] STATEMENT:  SELECT * FROM "public".dim_shi limit 1
+2024-03-18 02:33:45.240 +07 [10340] ERROR:  relation "public.dim_shi" does not exist at character 15
+2024-03-18 02:33:45.240 +07 [10340] STATEMENT:  SELECT * FROM "public".dim_shi limit 1
+2024-03-18 02:33:45.655 +07 [17644] ERROR:  relation "public.dim_ship" does not exist at character 15
+2024-03-18 02:33:45.655 +07 [17644] STATEMENT:  SELECT * FROM "public".dim_ship limit 1
+2024-03-18 02:33:45.655 +07 [17644] ERROR:  relation "public.dim_ship" does not exist at character 15
+2024-03-18 02:33:45.655 +07 [17644] STATEMENT:  SELECT * FROM "public".dim_ship limit 1
+2024-03-18 02:33:45.856 +07 [2192] ERROR:  relation "public.dim_shipp" does not exist at character 15
+2024-03-18 02:33:45.856 +07 [2192] STATEMENT:  SELECT * FROM "public".dim_shipp limit 1
+2024-03-18 02:33:45.856 +07 [2192] ERROR:  relation "public.dim_shipp" does not exist at character 15
+2024-03-18 02:33:45.856 +07 [2192] STATEMENT:  SELECT * FROM "public".dim_shipp limit 1
+2024-03-18 02:33:45.957 +07 [19440] ERROR:  relation "public.dim_shippe" does not exist at character 15
+2024-03-18 02:33:45.957 +07 [19440] STATEMENT:  SELECT * FROM "public".dim_shippe limit 1
+2024-03-18 02:33:45.958 +07 [19440] ERROR:  relation "public.dim_shippe" does not exist at character 15
+2024-03-18 02:33:45.958 +07 [19440] STATEMENT:  SELECT * FROM "public".dim_shippe limit 1
+2024-03-18 02:33:46.239 +07 [15500] ERROR:  relation "public.dim_shipper" does not exist at character 15
+2024-03-18 02:33:46.239 +07 [15500] STATEMENT:  SELECT * FROM "public".dim_shipper limit 1
+2024-03-18 02:33:46.239 +07 [15500] ERROR:  relation "public.dim_shipper" does not exist at character 15
+2024-03-18 02:33:46.239 +07 [15500] STATEMENT:  SELECT * FROM "public".dim_shipper limit 1
+2024-03-18 02:34:48.139 +07 [10548] ERROR:  relation "public.dim_shipper" does not exist at character 15
+2024-03-18 02:34:48.139 +07 [10548] STATEMENT:  SELECT * FROM "public".dim_shipper limit 1
+2024-03-18 02:34:48.139 +07 [10548] ERROR:  relation "public.dim_shipper" does not exist at character 15
+2024-03-18 02:34:48.139 +07 [10548] STATEMENT:  SELECT * FROM "public".dim_shipper limit 1
+2024-03-18 02:36:11.484 +07 [3536] ERROR:  relation "public.dim_shipper" does not exist at character 15
+2024-03-18 02:36:11.484 +07 [3536] STATEMENT:  SELECT * FROM "public".dim_shipper limit 1
+2024-03-18 02:36:11.485 +07 [3536] ERROR:  relation "public.dim_shipper" does not exist at character 15
+2024-03-18 02:36:11.485 +07 [3536] STATEMENT:  SELECT * FROM "public".dim_shipper limit 1
+2024-03-18 02:36:11.487 +07 [3536] ERROR:  relation "public.dim_shipper" does not exist at character 15
+2024-03-18 02:36:11.487 +07 [3536] STATEMENT:  SELECT * FROM "public".dim_shipper limit 1
+2024-03-18 02:36:14.164 +07 [10396] ERROR:  syntax error at or near "null" at character 84
+2024-03-18 02:36:14.164 +07 [10396] STATEMENT:  CREATE TABLE "public".dim_shipper
+	(
+	  sk_shipper BIGSERIAL
+	, version INTEGER
+	, null TIMESTAMP
+	, date_to TIMESTAMP
+	, shipper_id SMALLINT
+	, shipper_companyname VARCHAR(40)
+	, shipper_companyphone VARCHAR(24)
+	)
+2024-03-18 02:36:31.976 +07 [10396] ERROR:  relation "public.dim_shipper" does not exist
+2024-03-18 02:36:31.976 +07 [10396] STATEMENT:  CREATE INDEX idx_dim_shipper_lookup ON "public".dim_shipper(shipper_id)
+2024-03-18 02:36:49.112 +07 [12792] ERROR:  relation "public.dim_shipper" does not exist at character 15
+2024-03-18 02:36:49.112 +07 [12792] STATEMENT:  SELECT * FROM "public".dim_shipper limit 1
+2024-03-18 02:36:49.112 +07 [12792] ERROR:  relation "public.dim_shipper" does not exist at character 15
+2024-03-18 02:36:49.112 +07 [12792] STATEMENT:  SELECT * FROM "public".dim_shipper limit 1
+2024-03-18 02:36:49.113 +07 [12792] ERROR:  relation "public.dim_shipper" does not exist at character 15
+2024-03-18 02:36:49.113 +07 [12792] STATEMENT:  SELECT * FROM "public".dim_shipper limit 1
+2024-03-18 02:36:51.005 +07 [5416] ERROR:  syntax error at or near "null" at character 84
+2024-03-18 02:36:51.005 +07 [5416] STATEMENT:  CREATE TABLE "public".dim_shipper
+	(
+	  sk_shipper BIGSERIAL
+	, version INTEGER
+	, null TIMESTAMP
+	, date_to TIMESTAMP
+	, shipper_id SMALLINT
+	, shipper_companyname VARCHAR(40)
+	, shipper_companyphone VARCHAR(24)
+	)
+2024-03-18 02:37:01.202 +07 [5416] ERROR:  relation "public.dim_shipper" does not exist
+2024-03-18 02:37:01.202 +07 [5416] STATEMENT:  CREATE INDEX idx_dim_shipper_lookup ON "public".dim_shipper(shipper_id)
+2024-03-18 02:37:03.748 +07 [5416] ERROR:  relation "public.dim_shipper" does not exist
+2024-03-18 02:37:03.748 +07 [5416] STATEMENT:  CREATE INDEX idx_dim_shipper_tk ON "public".dim_shipper(sk_shipper)
+2024-03-18 02:37:50.093 +07 [16284] ERROR:  relation "public.dim_shipper" does not exist at character 15
+2024-03-18 02:37:50.093 +07 [16284] STATEMENT:  SELECT * FROM "public".dim_shipper limit 1
+2024-03-18 02:37:50.094 +07 [16284] ERROR:  relation "public.dim_shipper" does not exist at character 15
+2024-03-18 02:37:50.094 +07 [16284] STATEMENT:  SELECT * FROM "public".dim_shipper limit 1
+2024-03-18 02:37:56.525 +07 [5516] ERROR:  relation "public.dim_shipper" does not exist at character 15
+2024-03-18 02:37:56.525 +07 [5516] STATEMENT:  SELECT * FROM "public".dim_shipper limit 1
+2024-03-18 02:37:56.526 +07 [5516] ERROR:  relation "public.dim_shipper" does not exist at character 15
+2024-03-18 02:37:56.526 +07 [5516] STATEMENT:  SELECT * FROM "public".dim_shipper limit 1
+2024-03-18 02:37:56.653 +07 [7236] ERROR:  relation "public.dim_shipper" does not exist at character 15
+2024-03-18 02:37:56.653 +07 [7236] STATEMENT:  SELECT * FROM "public".dim_shipper limit 1
+2024-03-18 02:37:56.654 +07 [7236] ERROR:  relation "public.dim_shipper" does not exist at character 15
+2024-03-18 02:37:56.654 +07 [7236] STATEMENT:  SELECT * FROM "public".dim_shipper limit 1
+2024-03-18 02:37:56.744 +07 [18532] ERROR:  relation "public.dim_shipper" does not exist at character 15
+2024-03-18 02:37:56.744 +07 [18532] STATEMENT:  SELECT * FROM "public".dim_shipper limit 1
+2024-03-18 02:37:56.744 +07 [18532] ERROR:  relation "public.dim_shipper" does not exist at character 15
+2024-03-18 02:37:56.744 +07 [18532] STATEMENT:  SELECT * FROM "public".dim_shipper limit 1
+2024-03-18 02:38:10.990 +07 [8088] ERROR:  relation "public.dim_shipper" does not exist at character 15
+2024-03-18 02:38:10.990 +07 [8088] STATEMENT:  SELECT * FROM "public".dim_shipper limit 1
+2024-03-18 02:38:10.991 +07 [8088] ERROR:  relation "public.dim_shipper" does not exist at character 15
+2024-03-18 02:38:10.991 +07 [8088] STATEMENT:  SELECT * FROM "public".dim_shipper limit 1
+2024-03-18 02:38:10.992 +07 [8088] ERROR:  relation "public.dim_shipper" does not exist at character 15
+2024-03-18 02:38:10.992 +07 [8088] STATEMENT:  SELECT * FROM "public".dim_shipper limit 1
+2024-03-18 02:38:12.742 +07 [13536] ERROR:  syntax error at or near "null" at character 84
+2024-03-18 02:38:12.742 +07 [13536] STATEMENT:  CREATE TABLE "public".dim_shipper
+	(
+	  sk_shipper BIGSERIAL
+	, version INTEGER
+	, null TIMESTAMP
+	, date_to TIMESTAMP
+	, shipper_id SMALLINT
+	, shipper_companyname VARCHAR(40)
+	, shipper_companyphone VARCHAR(24)
+	)
+2024-03-18 02:38:23.085 +07 [12668] ERROR:  relation "public.dim_shipper" does not exist at character 15
+2024-03-18 02:38:23.085 +07 [12668] STATEMENT:  SELECT * FROM "public".dim_shipper limit 1
+2024-03-18 02:38:23.085 +07 [12668] ERROR:  relation "public.dim_shipper" does not exist at character 15
+2024-03-18 02:38:23.085 +07 [12668] STATEMENT:  SELECT * FROM "public".dim_shipper limit 1
+2024-03-18 02:38:23.185 +07 [2332] ERROR:  relation "public.dim_shipper" does not exist at character 15
+2024-03-18 02:38:23.185 +07 [2332] STATEMENT:  SELECT * FROM "public".dim_shipper limit 1
+2024-03-18 02:38:23.185 +07 [2332] ERROR:  relation "public.dim_shipper" does not exist at character 15
+2024-03-18 02:38:23.185 +07 [2332] STATEMENT:  SELECT * FROM "public".dim_shipper limit 1
+2024-03-18 10:40:05.761 +07 [17436] ERROR:  relation "public.dim_shipper" does not exist at character 15
+2024-03-18 10:40:05.761 +07 [17436] STATEMENT:  SELECT * FROM "public".dim_shipper limit 1
+2024-03-18 10:40:05.763 +07 [17436] ERROR:  relation "public.dim_shipper" does not exist at character 15
+2024-03-18 10:40:05.763 +07 [17436] STATEMENT:  SELECT * FROM "public".dim_shipper limit 1
+2024-03-18 10:40:05.842 +07 [4300] ERROR:  relation "public.dim_shipper" does not exist at character 15
+2024-03-18 10:40:05.842 +07 [4300] STATEMENT:  SELECT * FROM "public".dim_shipper limit 1
+2024-03-18 10:40:05.842 +07 [4300] ERROR:  relation "public.dim_shipper" does not exist at character 15
+2024-03-18 10:40:05.842 +07 [4300] STATEMENT:  SELECT * FROM "public".dim_shipper limit 1
+2024-03-18 10:40:05.916 +07 [21836] ERROR:  relation "public.dim_shipper" does not exist at character 15
+2024-03-18 10:40:05.916 +07 [21836] STATEMENT:  SELECT * FROM "public".dim_shipper limit 1
+2024-03-18 10:40:05.916 +07 [21836] ERROR:  relation "public.dim_shipper" does not exist at character 15
+2024-03-18 10:40:05.916 +07 [21836] STATEMENT:  SELECT * FROM "public".dim_shipper limit 1
+2024-03-18 10:40:33.958 +07 [13664] ERROR:  relation "public.dim_shipper" does not exist at character 15
+2024-03-18 10:40:33.958 +07 [13664] STATEMENT:  SELECT * FROM "public".dim_shipper limit 1
+2024-03-18 10:40:33.959 +07 [13664] ERROR:  relation "public.dim_shipper" does not exist at character 15
+2024-03-18 10:40:33.959 +07 [13664] STATEMENT:  SELECT * FROM "public".dim_shipper limit 1
+2024-03-18 10:58:09.703 +07 [20308] FATAL:  password authentication failed for user "postgres"
+2024-03-18 10:58:09.703 +07 [20308] DETAIL:  Connection matched pg_hba.conf line 87: "host    all             all             127.0.0.1/32            scram-sha-256"
+2024-03-18 10:58:09.793 +07 [19908] FATAL:  password authentication failed for user "postgres"
+2024-03-18 10:58:09.793 +07 [19908] DETAIL:  Connection matched pg_hba.conf line 87: "host    all             all             127.0.0.1/32            scram-sha-256"
+2024-03-18 10:58:09.869 +07 [1704] FATAL:  password authentication failed for user "postgres"
+2024-03-18 10:58:09.869 +07 [1704] DETAIL:  Connection matched pg_hba.conf line 87: "host    all             all             127.0.0.1/32            scram-sha-256"
+2024-03-18 10:58:09.954 +07 [21524] FATAL:  password authentication failed for user "postgres"
+2024-03-18 10:58:09.954 +07 [21524] DETAIL:  Connection matched pg_hba.conf line 87: "host    all             all             127.0.0.1/32            scram-sha-256"
+2024-03-18 10:58:10.047 +07 [21496] FATAL:  password authentication failed for user "postgres"
+2024-03-18 10:58:10.047 +07 [21496] DETAIL:  Connection matched pg_hba.conf line 87: "host    all             all             127.0.0.1/32            scram-sha-256"
+2024-03-18 10:58:10.161 +07 [23156] FATAL:  password authentication failed for user "postgres"
+2024-03-18 10:58:10.161 +07 [23156] DETAIL:  Connection matched pg_hba.conf line 87: "host    all             all             127.0.0.1/32            scram-sha-256"
+2024-03-18 10:58:10.304 +07 [10972] FATAL:  password authentication failed for user "postgres"
+2024-03-18 10:58:10.304 +07 [10972] DETAIL:  Connection matched pg_hba.conf line 87: "host    all             all             127.0.0.1/32            scram-sha-256"
+2024-03-18 10:58:10.393 +07 [20552] FATAL:  password authentication failed for user "postgres"
+2024-03-18 10:58:10.393 +07 [20552] DETAIL:  Connection matched pg_hba.conf line 87: "host    all             all             127.0.0.1/32            scram-sha-256"
+2024-03-18 10:58:10.555 +07 [22604] FATAL:  password authentication failed for user "postgres"
+2024-03-18 10:58:10.555 +07 [22604] DETAIL:  Connection matched pg_hba.conf line 87: "host    all             all             127.0.0.1/32            scram-sha-256"
+2024-03-18 10:58:10.641 +07 [19648] FATAL:  password authentication failed for user "postgres"
+2024-03-18 10:58:10.641 +07 [19648] DETAIL:  Connection matched pg_hba.conf line 87: "host    all             all             127.0.0.1/32            scram-sha-256"
+2024-03-18 10:58:10.727 +07 [22300] FATAL:  password authentication failed for user "postgres"
+2024-03-18 10:58:10.727 +07 [22300] DETAIL:  Connection matched pg_hba.conf line 87: "host    all             all             127.0.0.1/32            scram-sha-256"
+2024-03-18 10:58:10.807 +07 [18164] FATAL:  password authentication failed for user "postgres"
+2024-03-18 10:58:10.807 +07 [18164] DETAIL:  Connection matched pg_hba.conf line 87: "host    all             all             127.0.0.1/32            scram-sha-256"
+2024-03-18 10:58:10.904 +07 [9064] FATAL:  password authentication failed for user "postgres"
+2024-03-18 10:58:10.904 +07 [9064] DETAIL:  Connection matched pg_hba.conf line 87: "host    all             all             127.0.0.1/32            scram-sha-256"
+2024-03-18 10:58:10.994 +07 [13564] FATAL:  password authentication failed for user "postgres"
+2024-03-18 10:58:10.994 +07 [13564] DETAIL:  Connection matched pg_hba.conf line 87: "host    all             all             127.0.0.1/32            scram-sha-256"
+2024-03-18 10:58:11.085 +07 [17108] FATAL:  password authentication failed for user "postgres"
+2024-03-18 10:58:11.085 +07 [17108] DETAIL:  Connection matched pg_hba.conf line 87: "host    all             all             127.0.0.1/32            scram-sha-256"
+2024-03-18 10:58:11.166 +07 [10420] FATAL:  password authentication failed for user "postgres"
+2024-03-18 10:58:11.166 +07 [10420] DETAIL:  Connection matched pg_hba.conf line 87: "host    all             all             127.0.0.1/32            scram-sha-256"
+2024-03-18 10:58:11.300 +07 [23280] FATAL:  password authentication failed for user "postgres"
+2024-03-18 10:58:11.300 +07 [23280] DETAIL:  Connection matched pg_hba.conf line 87: "host    all             all             127.0.0.1/32            scram-sha-256"
+2024-03-18 10:58:11.387 +07 [21740] FATAL:  password authentication failed for user "postgres"
+2024-03-18 10:58:11.387 +07 [21740] DETAIL:  Connection matched pg_hba.conf line 87: "host    all             all             127.0.0.1/32            scram-sha-256"
+2024-03-18 10:58:11.632 +07 [22100] FATAL:  password authentication failed for user "postgres"
+2024-03-18 10:58:11.632 +07 [22100] DETAIL:  Connection matched pg_hba.conf line 87: "host    all             all             127.0.0.1/32            scram-sha-256"
+2024-03-18 10:58:11.716 +07 [19744] FATAL:  password authentication failed for user "postgres"
+2024-03-18 10:58:11.716 +07 [19744] DETAIL:  Connection matched pg_hba.conf line 87: "host    all             all             127.0.0.1/32            scram-sha-256"
+2024-03-18 10:58:11.791 +07 [2688] FATAL:  password authentication failed for user "postgres"
+2024-03-18 10:58:11.791 +07 [2688] DETAIL:  Connection matched pg_hba.conf line 87: "host    all             all             127.0.0.1/32            scram-sha-256"
+2024-03-18 10:58:11.898 +07 [22644] FATAL:  password authentication failed for user "postgres"
+2024-03-18 10:58:11.898 +07 [22644] DETAIL:  Connection matched pg_hba.conf line 87: "host    all             all             127.0.0.1/32            scram-sha-256"
+2024-03-18 11:00:54.792 +07 [23088] FATAL:  password authentication failed for user "postgres"
+2024-03-18 11:00:54.792 +07 [23088] DETAIL:  Connection matched pg_hba.conf line 87: "host    all             all             127.0.0.1/32            scram-sha-256"
+2024-03-18 11:00:54.860 +07 [11540] FATAL:  password authentication failed for user "postgres"
+2024-03-18 11:00:54.860 +07 [11540] DETAIL:  Connection matched pg_hba.conf line 87: "host    all             all             127.0.0.1/32            scram-sha-256"
+2024-03-18 11:00:54.936 +07 [22044] FATAL:  password authentication failed for user "postgres"
+2024-03-18 11:00:54.936 +07 [22044] DETAIL:  Connection matched pg_hba.conf line 87: "host    all             all             127.0.0.1/32            scram-sha-256"
+2024-03-18 11:01:09.156 +07 [19884] FATAL:  password authentication failed for user "postgres"
+2024-03-18 11:01:09.156 +07 [19884] DETAIL:  Connection matched pg_hba.conf line 87: "host    all             all             127.0.0.1/32            scram-sha-256"
+2024-03-18 11:01:26.670 +07 [15136] FATAL:  password authentication failed for user "postgres"
+2024-03-18 11:01:26.670 +07 [15136] DETAIL:  Connection matched pg_hba.conf line 87: "host    all             all             127.0.0.1/32            scram-sha-256"
+2024-03-18 11:01:40.498 +07 [13100] FATAL:  database "dwh_northwind" does not exist
+2024-03-18 11:15:23.378 +07 [15888] ERROR:  relation "dim.dim_date" does not exist at character 15
+2024-03-18 11:15:23.378 +07 [15888] STATEMENT:  SELECT * FROM dim.dim_date limit 1
+2024-03-18 11:15:23.380 +07 [15888] ERROR:  relation "dim.dim_date" does not exist at character 15
+2024-03-18 11:15:23.380 +07 [15888] STATEMENT:  SELECT * FROM dim.dim_date limit 1
+2024-03-18 11:15:23.455 +07 [18780] ERROR:  relation "dim.dim_date" does not exist at character 15
+2024-03-18 11:15:23.455 +07 [18780] STATEMENT:  SELECT * FROM dim.dim_date limit 1
+2024-03-18 11:15:23.455 +07 [18780] ERROR:  relation "dim.dim_date" does not exist at character 15
+2024-03-18 11:15:23.455 +07 [18780] STATEMENT:  SELECT * FROM dim.dim_date limit 1
+2024-03-18 11:15:23.529 +07 [1272] ERROR:  relation "dim.dim_date" does not exist at character 15
+2024-03-18 11:15:23.529 +07 [1272] STATEMENT:  SELECT * FROM dim.dim_date limit 1
+2024-03-18 11:15:23.529 +07 [1272] ERROR:  relation "dim.dim_date" does not exist at character 15
+2024-03-18 11:15:23.529 +07 [1272] STATEMENT:  SELECT * FROM dim.dim_date limit 1
+2024-03-18 11:15:44.487 +07 [17572] ERROR:  relation "dim.dim_date" does not exist at character 15
+2024-03-18 11:15:44.487 +07 [17572] STATEMENT:  SELECT * FROM dim.dim_date limit 1
+2024-03-18 11:17:33.365 +07 [15148] FATAL:  password authentication failed for user "postgres"
+2024-03-18 11:17:33.365 +07 [15148] DETAIL:  Connection matched pg_hba.conf line 87: "host    all             all             127.0.0.1/32            scram-sha-256"
+2024-03-18 11:17:33.438 +07 [1888] FATAL:  password authentication failed for user "postgres"
+2024-03-18 11:17:33.438 +07 [1888] DETAIL:  Connection matched pg_hba.conf line 87: "host    all             all             127.0.0.1/32            scram-sha-256"
+2024-03-18 11:17:33.505 +07 [22936] FATAL:  password authentication failed for user "postgres"
+2024-03-18 11:17:33.505 +07 [22936] DETAIL:  Connection matched pg_hba.conf line 87: "host    all             all             127.0.0.1/32            scram-sha-256"
+2024-03-18 11:18:19.283 +07 [19060] ERROR:  relation "di.dim_date" does not exist at character 15
+2024-03-18 11:18:19.283 +07 [19060] STATEMENT:  SELECT * FROM di.dim_date limit 1
+2024-03-18 11:18:19.284 +07 [19060] ERROR:  relation "di.dim_date" does not exist at character 15
+2024-03-18 11:18:19.284 +07 [19060] STATEMENT:  SELECT * FROM di.dim_date limit 1
+2024-03-18 11:18:19.438 +07 [16340] ERROR:  relation "d.dim_date" does not exist at character 15
+2024-03-18 11:18:19.438 +07 [16340] STATEMENT:  SELECT * FROM d.dim_date limit 1
+2024-03-18 11:18:19.439 +07 [16340] ERROR:  relation "d.dim_date" does not exist at character 15
+2024-03-18 11:18:19.439 +07 [16340] STATEMENT:  SELECT * FROM d.dim_date limit 1
+2024-03-18 11:18:20.143 +07 [22808] ERROR:  relation "dim_date" does not exist at character 15
+2024-03-18 11:18:20.143 +07 [22808] STATEMENT:  SELECT * FROM dim_date limit 1
+2024-03-18 11:18:20.144 +07 [22808] ERROR:  relation "dim_date" does not exist at character 15
+2024-03-18 11:18:20.144 +07 [22808] STATEMENT:  SELECT * FROM dim_date limit 1
+2024-03-18 11:18:20.473 +07 [17380] ERROR:  relation "p.dim_date" does not exist at character 15
+2024-03-18 11:18:20.473 +07 [17380] STATEMENT:  SELECT * FROM p.dim_date limit 1
+2024-03-18 11:18:20.475 +07 [17380] ERROR:  relation "p.dim_date" does not exist at character 15
+2024-03-18 11:18:20.475 +07 [17380] STATEMENT:  SELECT * FROM p.dim_date limit 1
+2024-03-18 11:18:20.780 +07 [7720] ERROR:  relation "pu.dim_date" does not exist at character 15
+2024-03-18 11:18:20.780 +07 [7720] STATEMENT:  SELECT * FROM pu.dim_date limit 1
+2024-03-18 11:18:20.780 +07 [7720] ERROR:  relation "pu.dim_date" does not exist at character 15
+2024-03-18 11:18:20.780 +07 [7720] STATEMENT:  SELECT * FROM pu.dim_date limit 1
+2024-03-18 11:18:21.164 +07 [17868] ERROR:  relation "pub.dim_date" does not exist at character 15
+2024-03-18 11:18:21.164 +07 [17868] STATEMENT:  SELECT * FROM pub.dim_date limit 1
+2024-03-18 11:18:21.165 +07 [17868] ERROR:  relation "pub.dim_date" does not exist at character 15
+2024-03-18 11:18:21.165 +07 [17868] STATEMENT:  SELECT * FROM pub.dim_date limit 1
+2024-03-18 11:18:21.313 +07 [22072] ERROR:  relation "publ.dim_date" does not exist at character 15
+2024-03-18 11:18:21.313 +07 [22072] STATEMENT:  SELECT * FROM publ.dim_date limit 1
+2024-03-18 11:18:21.313 +07 [22072] ERROR:  relation "publ.dim_date" does not exist at character 15
+2024-03-18 11:18:21.313 +07 [22072] STATEMENT:  SELECT * FROM publ.dim_date limit 1
+2024-03-18 11:18:21.497 +07 [416] ERROR:  relation "publi.dim_date" does not exist at character 15
+2024-03-18 11:18:21.497 +07 [416] STATEMENT:  SELECT * FROM publi.dim_date limit 1
+2024-03-18 11:18:21.497 +07 [416] ERROR:  relation "publi.dim_date" does not exist at character 15
+2024-03-18 11:18:21.497 +07 [416] STATEMENT:  SELECT * FROM publi.dim_date limit 1
+2024-03-18 11:18:21.795 +07 [22376] ERROR:  relation "public.dim_date" does not exist at character 15
+2024-03-18 11:18:21.795 +07 [22376] STATEMENT:  SELECT * FROM "public".dim_date limit 1
+2024-03-18 11:18:21.795 +07 [22376] ERROR:  relation "public.dim_date" does not exist at character 15
+2024-03-18 11:18:21.795 +07 [22376] STATEMENT:  SELECT * FROM "public".dim_date limit 1
+2024-03-18 11:54:05.716 +07 [18808] ERROR:  relation "lookup table" does not exist at character 15
+2024-03-18 11:54:05.716 +07 [18808] STATEMENT:  SELECT * FROM "lookup table" limit 1
+2024-03-18 11:54:05.718 +07 [18808] ERROR:  relation "lookup table" does not exist at character 15
+2024-03-18 11:54:05.718 +07 [18808] STATEMENT:  SELECT * FROM "lookup table" limit 1
+2024-03-18 11:54:05.808 +07 [19480] ERROR:  relation "lookup table" does not exist at character 15
+2024-03-18 11:54:05.808 +07 [19480] STATEMENT:  SELECT * FROM "lookup table" limit 1
+2024-03-18 11:54:05.808 +07 [19480] ERROR:  relation "lookup table" does not exist at character 15
+2024-03-18 11:54:05.808 +07 [19480] STATEMENT:  SELECT * FROM "lookup table" limit 1
+2024-03-18 11:54:05.895 +07 [22996] ERROR:  relation "lookup table" does not exist at character 15
+2024-03-18 11:54:05.895 +07 [22996] STATEMENT:  SELECT * FROM "lookup table" limit 1
+2024-03-18 11:54:05.895 +07 [22996] ERROR:  relation "lookup table" does not exist at character 15
+2024-03-18 11:54:05.895 +07 [22996] STATEMENT:  SELECT * FROM "lookup table" limit 1
+2024-03-18 11:54:42.524 +07 [8984] FATAL:  password authentication failed for user "progres"
+2024-03-18 11:54:42.524 +07 [8984] DETAIL:  Role "progres" does not exist.
+	Connection matched pg_hba.conf line 87: "host    all             all             127.0.0.1/32            scram-sha-256"
+2024-03-18 11:55:01.274 +07 [4992] FATAL:  password authentication failed for user "prostgres"
+2024-03-18 11:55:01.274 +07 [4992] DETAIL:  Role "prostgres" does not exist.
+	Connection matched pg_hba.conf line 87: "host    all             all             127.0.0.1/32            scram-sha-256"
+2024-03-18 11:55:25.922 +07 [17260] ERROR:  relation "p.lookup table" does not exist at character 15
+2024-03-18 11:55:25.922 +07 [17260] STATEMENT:  SELECT * FROM p."lookup table" limit 1
+2024-03-18 11:55:25.922 +07 [17260] ERROR:  relation "p.lookup table" does not exist at character 15
+2024-03-18 11:55:25.922 +07 [17260] STATEMENT:  SELECT * FROM p."lookup table" limit 1
+2024-03-18 11:55:26.223 +07 [22400] ERROR:  relation "pu.lookup table" does not exist at character 15
+2024-03-18 11:55:26.223 +07 [22400] STATEMENT:  SELECT * FROM pu."lookup table" limit 1
+2024-03-18 11:55:26.225 +07 [22400] ERROR:  relation "pu.lookup table" does not exist at character 15
+2024-03-18 11:55:26.225 +07 [22400] STATEMENT:  SELECT * FROM pu."lookup table" limit 1
+2024-03-18 11:55:26.756 +07 [20564] ERROR:  relation "pub.lookup table" does not exist at character 15
+2024-03-18 11:55:26.756 +07 [20564] STATEMENT:  SELECT * FROM pub."lookup table" limit 1
+2024-03-18 11:55:26.758 +07 [20564] ERROR:  relation "pub.lookup table" does not exist at character 15
+2024-03-18 11:55:26.758 +07 [20564] STATEMENT:  SELECT * FROM pub."lookup table" limit 1
+2024-03-18 11:55:27.437 +07 [13740] ERROR:  relation "publ.lookup table" does not exist at character 15
+2024-03-18 11:55:27.437 +07 [13740] STATEMENT:  SELECT * FROM publ."lookup table" limit 1
+2024-03-18 11:55:27.438 +07 [13740] ERROR:  relation "publ.lookup table" does not exist at character 15
+2024-03-18 11:55:27.438 +07 [13740] STATEMENT:  SELECT * FROM publ."lookup table" limit 1
+2024-03-18 11:55:27.696 +07 [13372] ERROR:  relation "publi.lookup table" does not exist at character 15
+2024-03-18 11:55:27.696 +07 [13372] STATEMENT:  SELECT * FROM publi."lookup table" limit 1
+2024-03-18 11:55:27.697 +07 [13372] ERROR:  relation "publi.lookup table" does not exist at character 15
+2024-03-18 11:55:27.697 +07 [13372] STATEMENT:  SELECT * FROM publi."lookup table" limit 1
+2024-03-18 11:55:28.001 +07 [15976] ERROR:  relation "public.lookup table" does not exist at character 15
+2024-03-18 11:55:28.001 +07 [15976] STATEMENT:  SELECT * FROM "public"."lookup table" limit 1
+2024-03-18 11:55:28.001 +07 [15976] ERROR:  relation "public.lookup table" does not exist at character 15
+2024-03-18 11:55:28.001 +07 [15976] STATEMENT:  SELECT * FROM "public"."lookup table" limit 1
+2024-03-18 11:55:30.846 +07 [13956] ERROR:  relation "public.d" does not exist at character 15
+2024-03-18 11:55:30.846 +07 [13956] STATEMENT:  SELECT * FROM "public".d limit 1
+2024-03-18 11:55:30.846 +07 [13956] ERROR:  relation "public.d" does not exist at character 15
+2024-03-18 11:55:30.846 +07 [13956] STATEMENT:  SELECT * FROM "public".d limit 1
+2024-03-18 11:55:31.074 +07 [8084] ERROR:  relation "public.di" does not exist at character 15
+2024-03-18 11:55:31.074 +07 [8084] STATEMENT:  SELECT * FROM "public".di limit 1
+2024-03-18 11:55:31.076 +07 [8084] ERROR:  relation "public.di" does not exist at character 15
+2024-03-18 11:55:31.076 +07 [8084] STATEMENT:  SELECT * FROM "public".di limit 1
+2024-03-18 11:55:31.194 +07 [2488] ERROR:  relation "public.dim" does not exist at character 15
+2024-03-18 11:55:31.194 +07 [2488] STATEMENT:  SELECT * FROM "public".dim limit 1
+2024-03-18 11:55:31.195 +07 [2488] ERROR:  relation "public.dim" does not exist at character 15
+2024-03-18 11:55:31.195 +07 [2488] STATEMENT:  SELECT * FROM "public".dim limit 1
+2024-03-18 11:55:31.993 +07 [14952] ERROR:  relation "public.dim_" does not exist at character 15
+2024-03-18 11:55:31.993 +07 [14952] STATEMENT:  SELECT * FROM "public".dim_ limit 1
+2024-03-18 11:55:31.996 +07 [14952] ERROR:  relation "public.dim_" does not exist at character 15
+2024-03-18 11:55:31.996 +07 [14952] STATEMENT:  SELECT * FROM "public".dim_ limit 1
+2024-03-18 11:55:32.525 +07 [18920] ERROR:  relation "public.dim_p" does not exist at character 15
+2024-03-18 11:55:32.525 +07 [18920] STATEMENT:  SELECT * FROM "public".dim_p limit 1
+2024-03-18 11:55:32.525 +07 [18920] ERROR:  relation "public.dim_p" does not exist at character 15
+2024-03-18 11:55:32.525 +07 [18920] STATEMENT:  SELECT * FROM "public".dim_p limit 1
+2024-03-18 11:55:32.686 +07 [21628] ERROR:  relation "public.dim_pr" does not exist at character 15
+2024-03-18 11:55:32.686 +07 [21628] STATEMENT:  SELECT * FROM "public".dim_pr limit 1
+2024-03-18 11:55:32.687 +07 [21628] ERROR:  relation "public.dim_pr" does not exist at character 15
+2024-03-18 11:55:32.687 +07 [21628] STATEMENT:  SELECT * FROM "public".dim_pr limit 1
+2024-03-18 11:55:32.840 +07 [20492] ERROR:  relation "public.dim_pro" does not exist at character 15
+2024-03-18 11:55:32.840 +07 [20492] STATEMENT:  SELECT * FROM "public".dim_pro limit 1
+2024-03-18 11:55:32.841 +07 [20492] ERROR:  relation "public.dim_pro" does not exist at character 15
+2024-03-18 11:55:32.841 +07 [20492] STATEMENT:  SELECT * FROM "public".dim_pro limit 1
+2024-03-18 11:55:33.401 +07 [17336] ERROR:  relation "public.dim_prod" does not exist at character 15
+2024-03-18 11:55:33.401 +07 [17336] STATEMENT:  SELECT * FROM "public".dim_prod limit 1
+2024-03-18 11:55:33.402 +07 [17336] ERROR:  relation "public.dim_prod" does not exist at character 15
+2024-03-18 11:55:33.402 +07 [17336] STATEMENT:  SELECT * FROM "public".dim_prod limit 1
+2024-03-18 11:55:33.512 +07 [20356] ERROR:  relation "public.dim_produ" does not exist at character 15
+2024-03-18 11:55:33.512 +07 [20356] STATEMENT:  SELECT * FROM "public".dim_produ limit 1
+2024-03-18 11:55:33.512 +07 [20356] ERROR:  relation "public.dim_produ" does not exist at character 15
+2024-03-18 11:55:33.512 +07 [20356] STATEMENT:  SELECT * FROM "public".dim_produ limit 1
+2024-03-18 11:55:33.733 +07 [7872] ERROR:  relation "public.dim_produc" does not exist at character 15
+2024-03-18 11:55:33.733 +07 [7872] STATEMENT:  SELECT * FROM "public".dim_produc limit 1
+2024-03-18 11:55:33.734 +07 [7872] ERROR:  relation "public.dim_produc" does not exist at character 15
+2024-03-18 11:55:33.734 +07 [7872] STATEMENT:  SELECT * FROM "public".dim_produc limit 1
+2024-03-18 11:55:33.950 +07 [19140] ERROR:  relation "public.dim_product" does not exist at character 15
+2024-03-18 11:55:33.950 +07 [19140] STATEMENT:  SELECT * FROM "public".dim_product limit 1
+2024-03-18 11:55:33.950 +07 [19140] ERROR:  relation "public.dim_product" does not exist at character 15
+2024-03-18 11:55:33.950 +07 [19140] STATEMENT:  SELECT * FROM "public".dim_product limit 1
+2024-03-18 11:58:17.285 +07 [18352] ERROR:  relation "public.dim_product" does not exist at character 15
+2024-03-18 11:58:17.285 +07 [18352] STATEMENT:  SELECT * FROM "public".dim_product limit 1
+2024-03-18 11:58:17.286 +07 [18352] ERROR:  relation "public.dim_product" does not exist at character 15
+2024-03-18 11:58:17.286 +07 [18352] STATEMENT:  SELECT * FROM "public".dim_product limit 1
+2024-03-18 12:03:45.916 +07 [10888] ERROR:  relation "lookup table" does not exist at character 15
+2024-03-18 12:03:45.916 +07 [10888] STATEMENT:  SELECT * FROM "lookup table" limit 1
+2024-03-18 12:03:45.916 +07 [10888] ERROR:  relation "lookup table" does not exist at character 15
+2024-03-18 12:03:45.916 +07 [10888] STATEMENT:  SELECT * FROM "lookup table" limit 1
+2024-03-18 12:03:51.523 +07 [23416] ERROR:  relation "d.lookup table" does not exist at character 15
+2024-03-18 12:03:51.523 +07 [23416] STATEMENT:  SELECT * FROM d."lookup table" limit 1
+2024-03-18 12:03:51.523 +07 [23416] ERROR:  relation "d.lookup table" does not exist at character 15
+2024-03-18 12:03:51.523 +07 [23416] STATEMENT:  SELECT * FROM d."lookup table" limit 1
+2024-03-18 12:03:52.285 +07 [7288] ERROR:  relation "di.lookup table" does not exist at character 15
+2024-03-18 12:03:52.285 +07 [7288] STATEMENT:  SELECT * FROM di."lookup table" limit 1
+2024-03-18 12:03:52.285 +07 [7288] ERROR:  relation "di.lookup table" does not exist at character 15
+2024-03-18 12:03:52.285 +07 [7288] STATEMENT:  SELECT * FROM di."lookup table" limit 1
+2024-03-18 12:03:52.625 +07 [23360] ERROR:  relation "dim.lookup table" does not exist at character 15
+2024-03-18 12:03:52.625 +07 [23360] STATEMENT:  SELECT * FROM dim."lookup table" limit 1
+2024-03-18 12:03:52.626 +07 [23360] ERROR:  relation "dim.lookup table" does not exist at character 15
+2024-03-18 12:03:52.626 +07 [23360] STATEMENT:  SELECT * FROM dim."lookup table" limit 1
+2024-03-18 12:03:53.880 +07 [20924] ERROR:  relation "dim_.lookup table" does not exist at character 15
+2024-03-18 12:03:53.880 +07 [20924] STATEMENT:  SELECT * FROM dim_."lookup table" limit 1
+2024-03-18 12:03:53.881 +07 [20924] ERROR:  relation "dim_.lookup table" does not exist at character 15
+2024-03-18 12:03:53.881 +07 [20924] STATEMENT:  SELECT * FROM dim_."lookup table" limit 1
+2024-03-18 12:03:54.704 +07 [22124] ERROR:  relation "dim_s.lookup table" does not exist at character 15
+2024-03-18 12:03:54.704 +07 [22124] STATEMENT:  SELECT * FROM dim_s."lookup table" limit 1
+2024-03-18 12:03:54.704 +07 [22124] ERROR:  relation "dim_s.lookup table" does not exist at character 15
+2024-03-18 12:03:54.704 +07 [22124] STATEMENT:  SELECT * FROM dim_s."lookup table" limit 1
+2024-03-18 12:03:54.870 +07 [1616] ERROR:  relation "dim_sh.lookup table" does not exist at character 15
+2024-03-18 12:03:54.870 +07 [1616] STATEMENT:  SELECT * FROM dim_sh."lookup table" limit 1
+2024-03-18 12:03:54.870 +07 [1616] ERROR:  relation "dim_sh.lookup table" does not exist at character 15
+2024-03-18 12:03:54.870 +07 [1616] STATEMENT:  SELECT * FROM dim_sh."lookup table" limit 1
+2024-03-18 12:03:54.958 +07 [2196] ERROR:  relation "dim_shi.lookup table" does not exist at character 15
+2024-03-18 12:03:54.958 +07 [2196] STATEMENT:  SELECT * FROM dim_shi."lookup table" limit 1
+2024-03-18 12:03:54.958 +07 [2196] ERROR:  relation "dim_shi.lookup table" does not exist at character 15
+2024-03-18 12:03:54.958 +07 [2196] STATEMENT:  SELECT * FROM dim_shi."lookup table" limit 1
+2024-03-18 12:03:55.386 +07 [22476] ERROR:  relation "dim_ship.lookup table" does not exist at character 15
+2024-03-18 12:03:55.386 +07 [22476] STATEMENT:  SELECT * FROM dim_ship."lookup table" limit 1
+2024-03-18 12:03:55.386 +07 [22476] ERROR:  relation "dim_ship.lookup table" does not exist at character 15
+2024-03-18 12:03:55.386 +07 [22476] STATEMENT:  SELECT * FROM dim_ship."lookup table" limit 1
+2024-03-18 12:03:55.513 +07 [11400] ERROR:  relation "dim_shipp.lookup table" does not exist at character 15
+2024-03-18 12:03:55.513 +07 [11400] STATEMENT:  SELECT * FROM dim_shipp."lookup table" limit 1
+2024-03-18 12:03:55.514 +07 [11400] ERROR:  relation "dim_shipp.lookup table" does not exist at character 15
+2024-03-18 12:03:55.514 +07 [11400] STATEMENT:  SELECT * FROM dim_shipp."lookup table" limit 1
+2024-03-18 12:03:55.762 +07 [21740] ERROR:  relation "dim_shippe.lookup table" does not exist at character 15
+2024-03-18 12:03:55.762 +07 [21740] STATEMENT:  SELECT * FROM dim_shippe."lookup table" limit 1
+2024-03-18 12:03:55.762 +07 [21740] ERROR:  relation "dim_shippe.lookup table" does not exist at character 15
+2024-03-18 12:03:55.762 +07 [21740] STATEMENT:  SELECT * FROM dim_shippe."lookup table" limit 1
+2024-03-18 12:03:56.018 +07 [16280] ERROR:  relation "dim_shipper.lookup table" does not exist at character 15
+2024-03-18 12:03:56.018 +07 [16280] STATEMENT:  SELECT * FROM dim_shipper."lookup table" limit 1
+2024-03-18 12:03:56.018 +07 [16280] ERROR:  relation "dim_shipper.lookup table" does not exist at character 15
+2024-03-18 12:03:56.018 +07 [16280] STATEMENT:  SELECT * FROM dim_shipper."lookup table" limit 1
+2024-03-18 12:04:30.228 +07 [2264] ERROR:  relation "p.lookup table" does not exist at character 15
+2024-03-18 12:04:30.228 +07 [2264] STATEMENT:  SELECT * FROM p."lookup table" limit 1
+2024-03-18 12:04:30.229 +07 [2264] ERROR:  relation "p.lookup table" does not exist at character 15
+2024-03-18 12:04:30.229 +07 [2264] STATEMENT:  SELECT * FROM p."lookup table" limit 1
+2024-03-18 12:04:30.537 +07 [11796] ERROR:  relation "pu.lookup table" does not exist at character 15
+2024-03-18 12:04:30.537 +07 [11796] STATEMENT:  SELECT * FROM pu."lookup table" limit 1
+2024-03-18 12:04:30.537 +07 [11796] ERROR:  relation "pu.lookup table" does not exist at character 15
+2024-03-18 12:04:30.537 +07 [11796] STATEMENT:  SELECT * FROM pu."lookup table" limit 1
+2024-03-18 12:04:30.775 +07 [19772] ERROR:  relation "pub.lookup table" does not exist at character 15
+2024-03-18 12:04:30.775 +07 [19772] STATEMENT:  SELECT * FROM pub."lookup table" limit 1
+2024-03-18 12:04:30.775 +07 [19772] ERROR:  relation "pub.lookup table" does not exist at character 15
+2024-03-18 12:04:30.775 +07 [19772] STATEMENT:  SELECT * FROM pub."lookup table" limit 1
+2024-03-18 12:04:31.047 +07 [7580] ERROR:  relation "publ.lookup table" does not exist at character 15
+2024-03-18 12:04:31.047 +07 [7580] STATEMENT:  SELECT * FROM publ."lookup table" limit 1
+2024-03-18 12:04:31.048 +07 [7580] ERROR:  relation "publ.lookup table" does not exist at character 15
+2024-03-18 12:04:31.048 +07 [7580] STATEMENT:  SELECT * FROM publ."lookup table" limit 1
+2024-03-18 12:04:31.267 +07 [2928] ERROR:  relation "publi.lookup table" does not exist at character 15
+2024-03-18 12:04:31.267 +07 [2928] STATEMENT:  SELECT * FROM publi."lookup table" limit 1
+2024-03-18 12:04:31.268 +07 [2928] ERROR:  relation "publi.lookup table" does not exist at character 15
+2024-03-18 12:04:31.268 +07 [2928] STATEMENT:  SELECT * FROM publi."lookup table" limit 1
+2024-03-18 12:04:31.531 +07 [660] ERROR:  relation "public.lookup table" does not exist at character 15
+2024-03-18 12:04:31.531 +07 [660] STATEMENT:  SELECT * FROM "public"."lookup table" limit 1
+2024-03-18 12:04:31.532 +07 [660] ERROR:  relation "public.lookup table" does not exist at character 15
+2024-03-18 12:04:31.532 +07 [660] STATEMENT:  SELECT * FROM "public"."lookup table" limit 1
+2024-03-18 12:04:33.561 +07 [3516] ERROR:  relation "public.dim_shipper" does not exist at character 15
+2024-03-18 12:04:33.561 +07 [3516] STATEMENT:  SELECT * FROM "public".dim_shipper limit 1
+2024-03-18 12:04:33.561 +07 [3516] ERROR:  relation "public.dim_shipper" does not exist at character 15
+2024-03-18 12:04:33.561 +07 [3516] STATEMENT:  SELECT * FROM "public".dim_shipper limit 1
+2024-03-18 12:05:35.655 +07 [11792] ERROR:  relation "public.dim_shipper" does not exist at character 15
+2024-03-18 12:05:35.655 +07 [11792] STATEMENT:  SELECT * FROM "public".dim_shipper limit 1
+2024-03-18 12:05:35.656 +07 [11792] ERROR:  relation "public.dim_shipper" does not exist at character 15
+2024-03-18 12:05:35.656 +07 [11792] STATEMENT:  SELECT * FROM "public".dim_shipper limit 1
+2024-03-18 12:32:17.429 +07 [21412] ERROR:  relation "dim table name" does not exist at character 15
+2024-03-18 12:32:17.429 +07 [21412] STATEMENT:  SELECT * FROM "dim table name" limit 1
+2024-03-18 12:32:17.432 +07 [21412] ERROR:  relation "dim table name" does not exist at character 15
+2024-03-18 12:32:17.432 +07 [21412] STATEMENT:  SELECT * FROM "dim table name" limit 1
+2024-03-18 12:32:17.707 +07 [21388] ERROR:  relation "dim table name" does not exist at character 15
+2024-03-18 12:32:17.707 +07 [21388] STATEMENT:  SELECT * FROM "dim table name" limit 1
+2024-03-18 12:32:17.708 +07 [21388] ERROR:  relation "dim table name" does not exist at character 15
+2024-03-18 12:32:17.708 +07 [21388] STATEMENT:  SELECT * FROM "dim table name" limit 1
+2024-03-18 12:32:17.804 +07 [16832] ERROR:  relation "dim table name" does not exist at character 15
+2024-03-18 12:32:17.804 +07 [16832] STATEMENT:  SELECT * FROM "dim table name" limit 1
+2024-03-18 12:32:17.804 +07 [16832] ERROR:  relation "dim table name" does not exist at character 15
+2024-03-18 12:32:17.804 +07 [16832] STATEMENT:  SELECT * FROM "dim table name" limit 1
+2024-03-18 12:33:25.343 +07 [17088] ERROR:  relation "p.dim table name" does not exist at character 15
+2024-03-18 12:33:25.343 +07 [17088] STATEMENT:  SELECT * FROM p."dim table name" limit 1
+2024-03-18 12:33:25.343 +07 [17088] ERROR:  relation "p.dim table name" does not exist at character 15
+2024-03-18 12:33:25.343 +07 [17088] STATEMENT:  SELECT * FROM p."dim table name" limit 1
+2024-03-18 12:33:25.644 +07 [22280] ERROR:  relation "pu.dim table name" does not exist at character 15
+2024-03-18 12:33:25.644 +07 [22280] STATEMENT:  SELECT * FROM pu."dim table name" limit 1
+2024-03-18 12:33:25.645 +07 [22280] ERROR:  relation "pu.dim table name" does not exist at character 15
+2024-03-18 12:33:25.645 +07 [22280] STATEMENT:  SELECT * FROM pu."dim table name" limit 1
+2024-03-18 12:33:25.946 +07 [18220] ERROR:  relation "pub.dim table name" does not exist at character 15
+2024-03-18 12:33:25.946 +07 [18220] STATEMENT:  SELECT * FROM pub."dim table name" limit 1
+2024-03-18 12:33:25.946 +07 [18220] ERROR:  relation "pub.dim table name" does not exist at character 15
+2024-03-18 12:33:25.946 +07 [18220] STATEMENT:  SELECT * FROM pub."dim table name" limit 1
+2024-03-18 12:33:26.160 +07 [5780] ERROR:  relation "publ.dim table name" does not exist at character 15
+2024-03-18 12:33:26.160 +07 [5780] STATEMENT:  SELECT * FROM publ."dim table name" limit 1
+2024-03-18 12:33:26.161 +07 [5780] ERROR:  relation "publ.dim table name" does not exist at character 15
+2024-03-18 12:33:26.161 +07 [5780] STATEMENT:  SELECT * FROM publ."dim table name" limit 1
+2024-03-18 12:33:26.378 +07 [12220] ERROR:  relation "publi.dim table name" does not exist at character 15
+2024-03-18 12:33:26.378 +07 [12220] STATEMENT:  SELECT * FROM publi."dim table name" limit 1
+2024-03-18 12:33:26.379 +07 [12220] ERROR:  relation "publi.dim table name" does not exist at character 15
+2024-03-18 12:33:26.379 +07 [12220] STATEMENT:  SELECT * FROM publi."dim table name" limit 1
+2024-03-18 12:33:26.878 +07 [15568] ERROR:  relation "public.dim table name" does not exist at character 15
+2024-03-18 12:33:26.878 +07 [15568] STATEMENT:  SELECT * FROM "public"."dim table name" limit 1
+2024-03-18 12:33:26.879 +07 [15568] ERROR:  relation "public.dim table name" does not exist at character 15
+2024-03-18 12:33:26.879 +07 [15568] STATEMENT:  SELECT * FROM "public"."dim table name" limit 1
+2024-03-18 12:33:30.032 +07 [18056] ERROR:  relation "public.dim table nam" does not exist at character 15
+2024-03-18 12:33:30.032 +07 [18056] STATEMENT:  SELECT * FROM "public"."dim table nam" limit 1
+2024-03-18 12:33:30.032 +07 [18056] ERROR:  relation "public.dim table nam" does not exist at character 15
+2024-03-18 12:33:30.032 +07 [18056] STATEMENT:  SELECT * FROM "public"."dim table nam" limit 1
+2024-03-18 12:33:30.155 +07 [10504] ERROR:  relation "public.dim table na" does not exist at character 15
+2024-03-18 12:33:30.155 +07 [10504] STATEMENT:  SELECT * FROM "public"."dim table na" limit 1
+2024-03-18 12:33:30.156 +07 [10504] ERROR:  relation "public.dim table na" does not exist at character 15
+2024-03-18 12:33:30.156 +07 [10504] STATEMENT:  SELECT * FROM "public"."dim table na" limit 1
+2024-03-18 12:33:30.310 +07 [13196] ERROR:  relation "public.dim table n" does not exist at character 15
+2024-03-18 12:33:30.310 +07 [13196] STATEMENT:  SELECT * FROM "public"."dim table n" limit 1
+2024-03-18 12:33:30.311 +07 [13196] ERROR:  relation "public.dim table n" does not exist at character 15
+2024-03-18 12:33:30.311 +07 [13196] STATEMENT:  SELECT * FROM "public"."dim table n" limit 1
+2024-03-18 12:33:30.486 +07 [12656] ERROR:  relation "public.dim table " does not exist at character 15
+2024-03-18 12:33:30.486 +07 [12656] STATEMENT:  SELECT * FROM "public"."dim table " limit 1
+2024-03-18 12:33:30.486 +07 [12656] ERROR:  relation "public.dim table " does not exist at character 15
+2024-03-18 12:33:30.486 +07 [12656] STATEMENT:  SELECT * FROM "public"."dim table " limit 1
+2024-03-18 12:33:30.612 +07 [12448] ERROR:  relation "public.dim table" does not exist at character 15
+2024-03-18 12:33:30.612 +07 [12448] STATEMENT:  SELECT * FROM "public"."dim table" limit 1
+2024-03-18 12:33:30.612 +07 [12448] ERROR:  relation "public.dim table" does not exist at character 15
+2024-03-18 12:33:30.612 +07 [12448] STATEMENT:  SELECT * FROM "public"."dim table" limit 1
+2024-03-18 12:33:30.827 +07 [18556] ERROR:  relation "public.dim tabl" does not exist at character 15
+2024-03-18 12:33:30.827 +07 [18556] STATEMENT:  SELECT * FROM "public"."dim tabl" limit 1
+2024-03-18 12:33:30.828 +07 [18556] ERROR:  relation "public.dim tabl" does not exist at character 15
+2024-03-18 12:33:30.828 +07 [18556] STATEMENT:  SELECT * FROM "public"."dim tabl" limit 1
+2024-03-18 12:33:30.948 +07 [17124] ERROR:  relation "public.dim tab" does not exist at character 15
+2024-03-18 12:33:30.948 +07 [17124] STATEMENT:  SELECT * FROM "public"."dim tab" limit 1
+2024-03-18 12:33:30.948 +07 [17124] ERROR:  relation "public.dim tab" does not exist at character 15
+2024-03-18 12:33:30.948 +07 [17124] STATEMENT:  SELECT * FROM "public"."dim tab" limit 1
+2024-03-18 12:33:31.101 +07 [18956] ERROR:  relation "public.dim ta" does not exist at character 15
+2024-03-18 12:33:31.101 +07 [18956] STATEMENT:  SELECT * FROM "public"."dim ta" limit 1
+2024-03-18 12:33:31.102 +07 [18956] ERROR:  relation "public.dim ta" does not exist at character 15
+2024-03-18 12:33:31.102 +07 [18956] STATEMENT:  SELECT * FROM "public"."dim ta" limit 1
+2024-03-18 12:33:31.359 +07 [21708] ERROR:  relation "public.dim t" does not exist at character 15
+2024-03-18 12:33:31.359 +07 [21708] STATEMENT:  SELECT * FROM "public"."dim t" limit 1
+2024-03-18 12:33:31.359 +07 [21708] ERROR:  relation "public.dim t" does not exist at character 15
+2024-03-18 12:33:31.359 +07 [21708] STATEMENT:  SELECT * FROM "public"."dim t" limit 1
+2024-03-18 12:33:31.732 +07 [10296] ERROR:  relation "public.dim " does not exist at character 15
+2024-03-18 12:33:31.732 +07 [10296] STATEMENT:  SELECT * FROM "public"."dim " limit 1
+2024-03-18 12:33:31.733 +07 [10296] ERROR:  relation "public.dim " does not exist at character 15
+2024-03-18 12:33:31.733 +07 [10296] STATEMENT:  SELECT * FROM "public"."dim " limit 1
+2024-03-18 12:33:32.090 +07 [22748] ERROR:  relation "public.dim" does not exist at character 15
+2024-03-18 12:33:32.090 +07 [22748] STATEMENT:  SELECT * FROM "public".dim limit 1
+2024-03-18 12:33:32.091 +07 [22748] ERROR:  relation "public.dim" does not exist at character 15
+2024-03-18 12:33:32.091 +07 [22748] STATEMENT:  SELECT * FROM "public".dim limit 1
+2024-03-18 12:33:32.932 +07 [7640] ERROR:  relation "public.dim_" does not exist at character 15
+2024-03-18 12:33:32.932 +07 [7640] STATEMENT:  SELECT * FROM "public".dim_ limit 1
+2024-03-18 12:33:32.933 +07 [7640] ERROR:  relation "public.dim_" does not exist at character 15
+2024-03-18 12:33:32.933 +07 [7640] STATEMENT:  SELECT * FROM "public".dim_ limit 1
+2024-03-18 12:33:33.523 +07 [11484] ERROR:  relation "public.dim_s" does not exist at character 15
+2024-03-18 12:33:33.523 +07 [11484] STATEMENT:  SELECT * FROM "public".dim_s limit 1
+2024-03-18 12:33:33.524 +07 [11484] ERROR:  relation "public.dim_s" does not exist at character 15
+2024-03-18 12:33:33.524 +07 [11484] STATEMENT:  SELECT * FROM "public".dim_s limit 1
+2024-03-18 12:33:33.746 +07 [15172] ERROR:  relation "public.dim_su" does not exist at character 15
+2024-03-18 12:33:33.746 +07 [15172] STATEMENT:  SELECT * FROM "public".dim_su limit 1
+2024-03-18 12:33:33.747 +07 [15172] ERROR:  relation "public.dim_su" does not exist at character 15
+2024-03-18 12:33:33.747 +07 [15172] STATEMENT:  SELECT * FROM "public".dim_su limit 1
+2024-03-18 12:33:34.018 +07 [18916] ERROR:  relation "public.dim_sup" does not exist at character 15
+2024-03-18 12:33:34.018 +07 [18916] STATEMENT:  SELECT * FROM "public".dim_sup limit 1
+2024-03-18 12:33:34.018 +07 [18916] ERROR:  relation "public.dim_sup" does not exist at character 15
+2024-03-18 12:33:34.018 +07 [18916] STATEMENT:  SELECT * FROM "public".dim_sup limit 1
+2024-03-18 12:33:34.123 +07 [9040] ERROR:  relation "public.dim_supp" does not exist at character 15
+2024-03-18 12:33:34.123 +07 [9040] STATEMENT:  SELECT * FROM "public".dim_supp limit 1
+2024-03-18 12:33:34.124 +07 [9040] ERROR:  relation "public.dim_supp" does not exist at character 15
+2024-03-18 12:33:34.124 +07 [9040] STATEMENT:  SELECT * FROM "public".dim_supp limit 1
+2024-03-18 12:33:34.375 +07 [19768] ERROR:  relation "public.dim_suppl" does not exist at character 15
+2024-03-18 12:33:34.375 +07 [19768] STATEMENT:  SELECT * FROM "public".dim_suppl limit 1
+2024-03-18 12:33:34.376 +07 [19768] ERROR:  relation "public.dim_suppl" does not exist at character 15
+2024-03-18 12:33:34.376 +07 [19768] STATEMENT:  SELECT * FROM "public".dim_suppl limit 1
+2024-03-18 12:33:34.518 +07 [20896] ERROR:  relation "public.dim_suppli" does not exist at character 15
+2024-03-18 12:33:34.518 +07 [20896] STATEMENT:  SELECT * FROM "public".dim_suppli limit 1
+2024-03-18 12:33:34.519 +07 [20896] ERROR:  relation "public.dim_suppli" does not exist at character 15
+2024-03-18 12:33:34.519 +07 [20896] STATEMENT:  SELECT * FROM "public".dim_suppli limit 1
+2024-03-18 12:33:34.766 +07 [10788] ERROR:  relation "public.dim_supplie" does not exist at character 15
+2024-03-18 12:33:34.766 +07 [10788] STATEMENT:  SELECT * FROM "public".dim_supplie limit 1
+2024-03-18 12:33:34.767 +07 [10788] ERROR:  relation "public.dim_supplie" does not exist at character 15
+2024-03-18 12:33:34.767 +07 [10788] STATEMENT:  SELECT * FROM "public".dim_supplie limit 1
+2024-03-18 12:33:34.980 +07 [17912] ERROR:  relation "public.dim_supplier" does not exist at character 15
+2024-03-18 12:33:34.980 +07 [17912] STATEMENT:  SELECT * FROM "public".dim_supplier limit 1
+2024-03-18 12:33:34.981 +07 [17912] ERROR:  relation "public.dim_supplier" does not exist at character 15
+2024-03-18 12:33:34.981 +07 [17912] STATEMENT:  SELECT * FROM "public".dim_supplier limit 1
+2024-03-18 12:33:35.472 +07 [20028] ERROR:  relation "public.dim_suppliers" does not exist at character 15
+2024-03-18 12:33:35.472 +07 [20028] STATEMENT:  SELECT * FROM "public".dim_suppliers limit 1
+2024-03-18 12:33:35.473 +07 [20028] ERROR:  relation "public.dim_suppliers" does not exist at character 15
+2024-03-18 12:33:35.473 +07 [20028] STATEMENT:  SELECT * FROM "public".dim_suppliers limit 1
+2024-03-18 12:34:18.705 +07 [23064] ERROR:  relation "public.dim_suppliers" does not exist at character 15
+2024-03-18 12:34:18.705 +07 [23064] STATEMENT:  SELECT * FROM "public".dim_suppliers limit 1
+2024-03-18 12:34:18.711 +07 [23064] ERROR:  relation "public.dim_suppliers" does not exist at character 15
+2024-03-18 12:34:18.711 +07 [23064] STATEMENT:  SELECT * FROM "public".dim_suppliers limit 1
+2024-03-18 12:34:48.239 +07 [1224] ERROR:  relation "public.dim_suppliers" does not exist at character 15
+2024-03-18 12:34:48.239 +07 [1224] STATEMENT:  SELECT * FROM "public".dim_suppliers limit 1
+2024-03-18 12:35:09.223 +07 [17508] ERROR:  relation "public.dim_suppliers" does not exist at character 15
+2024-03-18 12:35:09.223 +07 [17508] STATEMENT:  SELECT * FROM "public".dim_suppliers limit 1
+2024-03-18 12:35:09.223 +07 [17508] ERROR:  relation "public.dim_suppliers" does not exist at character 15
+2024-03-18 12:35:09.223 +07 [17508] STATEMENT:  SELECT * FROM "public".dim_suppliers limit 1
+2024-03-18 12:35:09.224 +07 [17508] ERROR:  relation "public.dim_suppliers" does not exist at character 15
+2024-03-18 12:35:09.224 +07 [17508] STATEMENT:  SELECT * FROM "public".dim_suppliers limit 1

@@ -1,0 +1,4 @@
+2024-09-24 08:27:25.589 +07 [6896] LOG:  aborting any active transactions
+2024-09-24 08:27:25.611 +07 [6896] LOG:  background worker "logical replication launcher" (PID 8332) exited with exit code 1
+2024-09-24 08:27:25.613 +07 [8240] LOG:  shutting down
+2024-09-24 08:27:25.672 +07 [6896] LOG:  database system is shut down

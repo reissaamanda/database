@@ -1,0 +1,9 @@
+2024-09-10 16:59:07.846 +07 [6616] LOG:  received fast shutdown request
+2024-09-10 16:59:07.849 +07 [6616] LOG:  aborting any active transactions
+2024-09-10 16:59:07.852 +07 [27892] FATAL:  terminating connection due to administrator command
+2024-09-10 16:59:07.852 +07 [33076] FATAL:  terminating connection due to administrator command
+2024-09-10 16:59:07.858 +07 [33132] FATAL:  terminating connection due to administrator command
+2024-09-10 16:59:07.858 +07 [5064] FATAL:  terminating connection due to administrator command
+2024-09-10 16:59:07.877 +07 [6616] LOG:  background worker "logical replication launcher" (PID 8324) exited with exit code 1
+2024-09-10 16:59:07.897 +07 [8264] LOG:  shutting down
+2024-09-10 16:59:07.965 +07 [6616] LOG:  database system is shut down

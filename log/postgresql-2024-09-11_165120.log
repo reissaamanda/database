@@ -1,0 +1,10 @@
+2024-09-11 16:51:20.429 +07 [6064] LOG:  starting PostgreSQL 14.11, compiled by Visual C++ build 1937, 64-bit
+2024-09-11 16:51:20.527 +07 [6064] LOG:  listening on IPv6 address "::", port 5432
+2024-09-11 16:51:20.527 +07 [6064] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-09-11 16:51:21.121 +07 [7020] LOG:  database system was shut down at 2024-09-11 16:50:35 +07
+2024-09-11 16:51:21.453 +07 [6064] LOG:  database system is ready to accept connections
+2024-09-11 16:53:03.176 +07 [6064] LOG:  received fast shutdown request
+2024-09-11 16:53:03.180 +07 [6064] LOG:  aborting any active transactions
+2024-09-11 16:53:03.207 +07 [6064] LOG:  background worker "logical replication launcher" (PID 6612) exited with exit code 1
+2024-09-11 16:53:03.214 +07 [7164] LOG:  shutting down
+2024-09-11 16:53:03.310 +07 [6064] LOG:  database system is shut down

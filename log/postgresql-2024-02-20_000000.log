@@ -1,0 +1,83 @@
+2024-02-22 18:06:04.031 +07 [18348] ERROR:  syntax error at or near "where" at character 64
+2024-02-22 18:06:04.031 +07 [18348] STATEMENT:  select  * from data_src ds 
+	where year between 1990 and 2000
+	where journal in ('J. Food Protection', 'Food Chemistry')
+2024-02-24 22:44:02.026 +07 [23352] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-02-24 22:44:02.046 +07 [31064] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-02-24 22:44:02.052 +07 [30524] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-02-24 22:44:02.055 +07 [30124] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-02-24 22:54:36.361 +07 [31248] ERROR:  relation "production" does not exist at character 15
+2024-02-24 22:54:36.361 +07 [31248] STATEMENT:  select * from production 
+2024-02-24 22:55:23.780 +07 [31248] ERROR:  relation "production" does not exist at character 15
+2024-02-24 22:55:23.780 +07 [31248] STATEMENT:  select * from production 
+2024-02-24 23:31:39.181 +07 [31248] ERROR:  syntax error at or near "notnull" at character 65
+2024-02-24 23:31:39.181 +07 [31248] STATEMENT:  select count(*)
+	from person p 
+	where additionalcontactinfo is notnull 
+2024-02-25 15:34:29.227 +07 [30160] ERROR:  invalid reference to FROM-clause entry for table "person" at character 194
+2024-02-25 15:34:29.227 +07 [30160] HINT:  Perhaps you meant to reference the table alias "p".
+2024-02-25 15:34:29.227 +07 [30160] STATEMENT:  select 
+	person.businessentityid, person.firstname, person.middlename, person.lastname, 
+	personphone.phonenumber, personphone.phonenumbertypeid 
+	from person p 
+	inner join  personphone p2 on person.businessentityid = personphone.businessentityid 
+	inner join phonenumbertype p3 on personphone.phonenumbertypeid =  phonenumbertype."name" 
+2024-02-25 15:35:54.498 +07 [30160] ERROR:  invalid reference to FROM-clause entry for table "personphone" at character 270
+2024-02-25 15:35:54.498 +07 [30160] HINT:  Perhaps you meant to reference the table alias "p2".
+2024-02-25 15:35:54.498 +07 [30160] STATEMENT:  select 
+	person.businessentityid, person.firstname, person.middlename, person.lastname, 
+	personphone.phonenumber, personphone.phonenumbertypeid 
+	from person p 
+	inner join  personphone p2 on p.businessentityid = p2.businessentityid 
+	inner join phonenumbertype p3 on personphone.phonenumbertypeid =  phonenumbertype."name" 
+2024-02-25 15:36:13.154 +07 [30160] ERROR:  operator does not exist: integer = "Name" at character 291
+2024-02-25 15:36:13.154 +07 [30160] HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+2024-02-25 15:36:13.154 +07 [30160] STATEMENT:  select 
+	person.businessentityid, person.firstname, person.middlename, person.lastname, 
+	personphone.phonenumber, personphone.phonenumbertypeid 
+	from person p 
+	inner join  personphone p2 on p.businessentityid = p2.businessentityid 
+	inner join phonenumbertype p3 on p2.phonenumbertypeid =  p3."name" 
+2024-02-25 15:36:26.435 +07 [30160] ERROR:  operator does not exist: integer = "Name" at character 291
+2024-02-25 15:36:26.435 +07 [30160] HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+2024-02-25 15:36:26.435 +07 [30160] STATEMENT:  select 
+	person.businessentityid, person.firstname, person.middlename, person.lastname, 
+	personphone.phonenumber, personphone.phonenumbertypeid 
+	from person p 
+	inner join  personphone p2 on p.businessentityid = p2.businessentityid 
+	inner join phonenumbertype p3 on p2.phonenumbertypeid =  p3.name 
+2024-02-25 15:36:35.626 +07 [30160] ERROR:  invalid reference to FROM-clause entry for table "person" at character 10
+2024-02-25 15:36:35.626 +07 [30160] HINT:  Perhaps you meant to reference the table alias "p".
+2024-02-25 15:36:35.626 +07 [30160] STATEMENT:  select 
+	person.businessentityid, person.firstname, person.middlename, person.lastname, 
+	personphone.phonenumber, personphone.phonenumbertypeid 
+	from person p 
+	inner join  personphone p2 on p.businessentityid = p2.businessentityid 
+	inner join phonenumbertype p3 on p2.phonenumbertypeid =  p3.phonenumbertypeid  
+2024-02-25 16:08:16.537 +07 [30160] ERROR:  column reference "productid" is ambiguous at character 128
+2024-02-25 16:08:16.537 +07 [30160] STATEMENT:  select 
+	p.name, 
+	w.orderqty, w.scrappedqty 
+	from product p 
+	right join workorder w on p.productid = w.productid 
+	order by productid asc 
+2024-02-25 16:12:32.100 +07 [24924] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-02-25 16:12:32.101 +07 [31436] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-02-25 16:12:32.105 +07 [12596] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-02-25 16:12:32.116 +07 [24628] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-02-25 16:12:32.117 +07 [32028] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-02-25 16:12:32.123 +07 [29388] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-02-25 16:12:32.122 +07 [29308] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-02-25 16:12:32.127 +07 [23116] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	

@@ -1,0 +1,28 @@
+2024-03-07 09:00:10.069 +07 [55540] ERROR:  relation "customers" does not exist at character 15
+2024-03-07 09:00:10.069 +07 [55540] STATEMENT:  SELECT * FROM customers
+2024-03-07 09:00:10.090 +07 [55540] ERROR:  relation "customers" does not exist at character 15
+2024-03-07 09:00:10.090 +07 [55540] STATEMENT:  SELECT * FROM customers
+2024-03-07 09:01:37.899 +07 [55916] ERROR:  relation "customers" does not exist at character 15
+2024-03-07 09:01:37.899 +07 [55916] STATEMENT:  SELECT * FROM customers
+2024-03-07 09:01:37.901 +07 [55916] ERROR:  relation "customers" does not exist at character 15
+2024-03-07 09:01:37.901 +07 [55916] STATEMENT:  SELECT * FROM customers
+2024-03-07 09:01:44.451 +07 [57652] ERROR:  relation "customers" does not exist at character 15
+2024-03-07 09:01:44.451 +07 [57652] STATEMENT:  SELECT * FROM customers
+2024-03-07 09:01:44.452 +07 [57652] ERROR:  relation "customers" does not exist at character 15
+2024-03-07 09:01:44.452 +07 [57652] STATEMENT:  SELECT * FROM customers
+2024-03-07 09:01:44.626 +07 [61932] ERROR:  relation "customers" does not exist at character 15
+2024-03-07 09:01:44.626 +07 [61932] STATEMENT:  SELECT * FROM customers
+2024-03-07 09:02:24.776 +07 [62184] ERROR:  relation "customers" does not exist at character 15
+2024-03-07 09:02:24.776 +07 [62184] STATEMENT:  SELECT * FROM customers
+2024-03-07 09:02:24.777 +07 [62184] ERROR:  relation "customers" does not exist at character 15
+2024-03-07 09:02:24.777 +07 [62184] STATEMENT:  SELECT * FROM customers
+2024-03-07 09:02:32.644 +07 [33008] ERROR:  relation "customers" does not exist at character 15
+2024-03-07 09:02:32.644 +07 [33008] STATEMENT:  SELECT * FROM customers
+2024-03-07 09:02:32.644 +07 [33008] ERROR:  relation "customers" does not exist at character 15
+2024-03-07 09:02:32.644 +07 [33008] STATEMENT:  SELECT * FROM customers
+2024-03-07 09:02:34.666 +07 [46768] ERROR:  relation "customers" does not exist at character 15
+2024-03-07 09:02:34.666 +07 [46768] STATEMENT:  SELECT * FROM customers
+2024-03-07 09:02:34.669 +07 [46768] ERROR:  relation "customers" does not exist at character 15
+2024-03-07 09:02:34.669 +07 [46768] STATEMENT:  SELECT * FROM customers
+2024-03-07 09:02:34.679 +07 [32764] ERROR:  relation "customers" does not exist at character 15
+2024-03-07 09:02:34.679 +07 [32764] STATEMENT:  SELECT * FROM customers

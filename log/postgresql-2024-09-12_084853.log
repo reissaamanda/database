@@ -1,0 +1,15 @@
+2024-09-12 08:48:53.256 +07 [4508] LOG:  starting PostgreSQL 14.11, compiled by Visual C++ build 1937, 64-bit
+2024-09-12 08:48:53.260 +07 [4508] LOG:  listening on IPv6 address "::", port 5432
+2024-09-12 08:48:53.261 +07 [4508] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-09-12 08:48:53.425 +07 [17480] LOG:  database system was shut down at 2024-09-12 08:48:51 +07
+2024-09-12 08:48:53.619 +07 [4508] LOG:  database system is ready to accept connections
+2024-09-12 15:19:19.658 +07 [12428] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-12 15:19:19.660 +07 [17512] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-12 15:19:19.661 +07 [15060] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-12 15:19:19.662 +07 [10760] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-12 15:19:19.674 +07 [2376] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	

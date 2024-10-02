@@ -1,0 +1,27 @@
+2024-02-29 21:37:01.932 +07 [45232] ERROR:  syntax error at or near "|" at character 1
+2024-02-29 21:37:01.932 +07 [45232] STATEMENT:  |
+2024-03-01 21:46:28.038 +07 [49428] ERROR:  function datediff(timestamp without time zone, timestamp without time zone) does not exist at character 28
+2024-03-01 21:46:28.038 +07 [49428] HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2024-03-01 21:46:28.038 +07 [49428] STATEMENT:  SELECT rental_id, 
+	       DATEDIFF(return_date, rental_date) AS rental_duration_days
+	FROM rental
+2024-03-01 21:59:48.091 +07 [29512] ERROR:  syntax error at or near "or" at character 104
+2024-03-01 21:59:48.091 +07 [29512] STATEMENT:  select * from data_src ds 
+	where year between 1990 and 2000
+	and journal between 'J. Food Protection' or 'Food Chemistry' 
+2024-03-01 22:25:42.420 +07 [43280] ERROR:  relation "employee" does not exist at character 52
+2024-03-01 22:25:42.420 +07 [43280] STATEMENT:  --ADVANTURE WORKS
+	--humanresources
+	select * from employee e 
+	order by sickleavehours asc 
+2024-03-01 22:32:17.431 +07 [43280] ERROR:  relation "productcosthistory" does not exist at character 46
+2024-03-01 22:32:17.431 +07 [43280] STATEMENT:  --production
+	select avg(standardcost)
+	from productcosthistory p 
+	where productid = 738 
+2024-03-01 22:42:50.708 +07 [43280] ERROR:  column reference "businessentityid" is ambiguous at character 236
+2024-03-01 22:42:50.708 +07 [43280] STATEMENT:  select p.firstname, p.middlename, p.lastname, p2.phonenumber, p3.name
+	from person p 
+	join personphone p2 on p.businessentityid = p2.businessentityid 
+	join phonenumbertype p3 on p2.phonenumbertypeid = p3.phonenumbertypeid 
+	order by businessentityid desc 

@@ -1,0 +1,163 @@
+2024-09-19 13:34:56.733 +07 [6544] LOG:  starting PostgreSQL 14.11, compiled by Visual C++ build 1937, 64-bit
+2024-09-19 13:34:56.855 +07 [6544] LOG:  listening on IPv6 address "::", port 5432
+2024-09-19 13:34:56.855 +07 [6544] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-09-19 13:34:57.439 +07 [7496] LOG:  database system was shut down at 2024-09-19 13:34:07 +07
+2024-09-19 13:34:57.663 +07 [6544] LOG:  database system is ready to accept connections
+2024-09-19 17:04:58.828 +07 [18760] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 17:04:58.836 +07 [3120] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 17:04:58.842 +07 [5324] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 17:04:58.844 +07 [1452] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 17:04:58.850 +07 [17400] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 17:04:58.850 +07 [9412] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-19 17:04:58.854 +07 [3836] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-20 14:02:25.037 +07 [27876] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-20 14:02:25.039 +07 [27964] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-20 14:02:25.040 +07 [27796] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-20 14:02:25.053 +07 [27744] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-20 14:02:25.054 +07 [24348] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-20 14:02:25.060 +07 [19324] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-20 14:02:25.061 +07 [25440] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-20 14:52:43.918 +07 [27148] ERROR:  relation "dummy_transactions" already exists
+2024-09-20 14:52:43.918 +07 [27148] STATEMENT:  CREATE TABLE dummy_transactions (
+	    invoice_id VARCHAR(100),
+	    branch_id VARCHAR(5),
+	    city VARCHAR(50),
+	    customer_type VARCHAR(50),
+	    customer_gender VARCHAR(20),
+	    product_category VARCHAR(100),
+	    unit_price FLOAT,
+	    quantity INTEGER,
+	    transaction_time TIMESTAMP,
+	    payment_method VARCHAR(50)
+	    )
+2024-09-20 14:53:21.743 +07 [27148] ERROR:  relation "dummy_transactions" already exists
+2024-09-20 14:53:21.743 +07 [27148] STATEMENT:  CREATE TABLE dummy_transactions (
+	    invoice_id VARCHAR(100),
+	    branch_id VARCHAR(5),
+	    city VARCHAR(50),
+	    customer_type VARCHAR(50),
+	    customer_gender VARCHAR(20),
+	    product_category VARCHAR(100),
+	    unit_price FLOAT,
+	    quantity INTEGER,
+	    transaction_time TIMESTAMP,
+	    payment_method VARCHAR(50)
+	    )
+2024-09-23 08:27:18.783 +07 [27184] ERROR:  syntax error at or near "jenis_buah" at character 39
+2024-09-23 08:27:18.783 +07 [27184] STATEMENT:  create table buah(
+	nama varchar(20)
+	jenis_buah varchar(20)
+	jumlah int)
+2024-09-23 08:30:50.370 +07 [27184] ERROR:  INSERT has more target columns than expressions at character 25
+2024-09-23 08:30:50.370 +07 [27184] STATEMENT:  insert into buah (nama, jenis_buah, jumlah)
+	values 
+	('reissa, jeruk, 2'),
+	('amanda, mangga, 4')
+2024-09-23 08:30:56.888 +07 [27184] ERROR:  syntax error at or near "(" at character 77
+2024-09-23 08:30:56.888 +07 [27184] STATEMENT:  insert into buah (nama, jenis_buah, jumlah)
+	values 
+	('reissa, jeruk, 2')
+	('amanda, mangga, 4')
+2024-09-23 08:31:00.084 +07 [27184] ERROR:  INSERT has more target columns than expressions at character 25
+2024-09-23 08:31:00.084 +07 [27184] STATEMENT:  insert into buah (nama, jenis_buah, jumlah)
+	values 
+	('reissa, jeruk, 2'),
+	('amanda, mangga, 4')
+2024-09-23 08:31:36.954 +07 [27184] ERROR:  column "jenis" of relation "buah" does not exist at character 25
+2024-09-23 08:31:36.954 +07 [27184] STATEMENT:  insert into buah (nama, jenis, jumlah)
+	values 
+	('reissa, jeruk, 2'),
+	('amanda, mangga, 4')
+2024-09-23 08:34:22.527 +07 [7720] ERROR:  INSERT has more target columns than expressions at character 25
+2024-09-23 08:34:22.527 +07 [7720] STATEMENT:  insert into buah (nama, jenis_buah, jumlah)
+	values 
+	('reissa, jeruk, 2'),
+	('amanda, mangga, 4')
+2024-09-23 08:34:30.220 +07 [7720] ERROR:  column "jenis" of relation "buah" does not exist at character 25
+2024-09-23 08:34:30.220 +07 [7720] STATEMENT:  insert into buah (nama, jenis, jumlah)
+	values 
+	('reissa, jeruk, 2'),
+	('amanda, mangga, 4')
+2024-09-23 08:34:59.600 +07 [7720] ERROR:  INSERT has more target columns than expressions at character 25
+2024-09-23 08:34:59.600 +07 [7720] STATEMENT:  insert into buah (nama, jenis_buah, jumlah)
+	values 
+	('reissa, jeruk, 2'),
+	('amanda, mangga, 4')
+2024-09-23 08:35:01.445 +07 [7720] ERROR:  INSERT has more target columns than expressions at character 25
+2024-09-23 08:35:01.445 +07 [7720] STATEMENT:  insert into buah (nama, jenis_buah, jumlah)
+	values 
+	('reissa, jeruk, 2'),
+	('amanda, mangga, 4')
+2024-09-23 08:35:02.024 +07 [7720] ERROR:  INSERT has more target columns than expressions at character 25
+2024-09-23 08:35:02.024 +07 [7720] STATEMENT:  insert into buah (nama, jenis_buah, jumlah)
+	values 
+	('reissa, jeruk, 2'),
+	('amanda, mangga, 4')
+2024-09-23 08:35:02.569 +07 [7720] ERROR:  INSERT has more target columns than expressions at character 25
+2024-09-23 08:35:02.569 +07 [7720] STATEMENT:  insert into buah (nama, jenis_buah, jumlah)
+	values 
+	('reissa, jeruk, 2'),
+	('amanda, mangga, 4')
+2024-09-23 08:35:38.202 +07 [7720] ERROR:  INSERT has more target columns than expressions at character 25
+2024-09-23 08:35:38.202 +07 [7720] STATEMENT:  insert into buah (nama, jenis_buah, jumlah)
+	values 
+	('reissa, jeruk, 2'),
+	('amanda, mangga, 4')
+2024-09-23 08:35:38.790 +07 [7720] ERROR:  INSERT has more target columns than expressions at character 25
+2024-09-23 08:35:38.790 +07 [7720] STATEMENT:  insert into buah (nama, jenis_buah, jumlah)
+	values 
+	('reissa, jeruk, 2'),
+	('amanda, mangga, 4')
+2024-09-23 08:39:45.270 +07 [7720] ERROR:  column "jumlah" of relation "buah" does not exist at character 37
+2024-09-23 08:39:45.270 +07 [7720] STATEMENT:  insert into buah (nama, jenis_buah, jumlah)
+	values 
+	('reissa, jeruk, 2'),
+	('amanda, mangga, 4')
+2024-09-23 08:39:46.215 +07 [7720] ERROR:  column "jumlah" of relation "buah" does not exist at character 37
+2024-09-23 08:39:46.215 +07 [7720] STATEMENT:  insert into buah (nama, jenis_buah, jumlah)
+	values 
+	('reissa, jeruk, 2'),
+	('amanda, mangga, 4')
+2024-09-23 08:40:03.942 +07 [7720] ERROR:  column "jumlah" of relation "buah" does not exist at character 37
+2024-09-23 08:40:03.942 +07 [7720] STATEMENT:  insert into buah (nama, jenis_buah, jumlah)
+	values 
+	('reissa, jeruk, 2'),
+	('amanda, mangga, 4')
+2024-09-23 08:40:05.169 +07 [7720] ERROR:  column "jumlah" of relation "buah" does not exist at character 37
+2024-09-23 08:40:05.169 +07 [7720] STATEMENT:  insert into buah (nama, jenis_buah, jumlah)
+	values 
+	('reissa, jeruk, 2'),
+	('amanda, mangga, 4')
+2024-09-23 08:41:28.572 +07 [7720] ERROR:  syntax error at or near "(" at character 107
+2024-09-23 08:41:28.572 +07 [7720] STATEMENT:  insert into buah (nama, jenis_buah)
+	values 
+	('reissa, jeruk'),
+	('reissa, jeruk'),
+	('reissa, mangga')
+	('amanda, jeruk'),
+	('amanda, mangga')
+2024-09-23 08:42:44.439 +07 [7720] ERROR:  syntax error at or near "(" at character 113
+2024-09-23 08:42:44.439 +07 [7720] STATEMENT:  insert into buah (nama, jenis_buah)
+	values 
+	('reissa', 'jeruk'),
+	('reissa', 'jeruk'),
+	('reissa', 'mangga')
+	('amanda', 'jeruk'),
+	('amanda', 'mangga')
+2024-09-23 08:45:34.902 +07 [7720] ERROR:  column "b.nama" must appear in the GROUP BY clause or be used in an aggregate function at character 8
+2024-09-23 08:45:34.902 +07 [7720] STATEMENT:  select nama, jenis_buah, count(*) as jumlah_buah
+	from buah b  

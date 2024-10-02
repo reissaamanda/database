@@ -1,0 +1,55 @@
+2024-09-23 10:25:22.057 +07 [16144] ERROR:  syntax error at or near "ad" at character 20
+2024-09-23 10:25:22.057 +07 [16144] STATEMENT:  alter table buah 
+	ad column merk varchar(30)
+2024-09-23 10:27:00.383 +07 [16144] ERROR:  syntax error at or near ":" at character 48
+2024-09-23 10:27:00.383 +07 [16144] STATEMENT:  update buah
+	set merk = 'Bagus'
+	where id in (1:3)
+2024-09-23 10:29:03.021 +07 [16144] ERROR:  syntax error at or near "desc" at character 35
+2024-09-23 10:29:03.021 +07 [16144] STATEMENT:  select * from buah b
+	group by id desc
+2024-09-23 11:29:24.419 +07 [16144] ERROR:  column "b.merk" must appear in the GROUP BY clause or be used in an aggregate function at character 173
+2024-09-23 11:29:24.419 +07 [16144] STATEMENT:  create table pembelian_buah2 as
+	select
+	nama,
+	count (case when jenis_buah = 'mangga' then 1 end) as mangga,
+	count (case when jenis_buah = 'jeruk' then 1 end) as jeruk,
+	merk
+	from buah b 
+	group by nama
+2024-09-23 11:36:09.711 +07 [15036] ERROR:  relation "pembelian_buah2" already exists
+2024-09-23 11:36:09.711 +07 [15036] STATEMENT:  CREATE TABLE pembelian_buah2 AS
+	SELECT
+	    nama,
+	    COUNT(CASE WHEN jenis_buah = 'mangga' THEN 1 END) AS mangga,
+	    COUNT(CASE WHEN jenis_buah = 'jeruk' THEN 1 END) AS jeruk,
+	    (COUNT(CASE WHEN jenis_buah = 'mangga' THEN 1 END) + 
+	     COUNT(CASE WHEN jenis_buah = 'jeruk' THEN 1 END)) AS total_buah,
+	    merk
+	FROM
+	    buah b
+	GROUP BY
+	    nama, merk
+2024-09-23 14:16:36.026 +07 [3208] ERROR:  column "mangga" of relation "buah" does not exist at character 25
+2024-09-23 14:16:36.026 +07 [3208] STATEMENT:  insert into buah (nama, mangga, jeruk, total_buah, merk)
+	values 
+	('reissa', 2, 3, 5, 'Sekali'),
+	('amanda', 1, 2, 3, 'Ada')
+2024-09-23 14:24:21.160 +07 [3208] ERROR:  syntax error at or near "SEPARATOR" at character 172
+2024-09-23 14:24:21.160 +07 [3208] STATEMENT:  CREATE TABLE pembelian_buah_gabung AS
+	SELECT 
+	    nama,
+	    SUM(mangga) AS mangga,
+	    SUM(jeruk) AS jeruk,
+	    SUM(total_buah) AS total_buah,
+	    GROUP_CONCAT(merk SEPARATOR ', ') AS merk
+	FROM 
+	    pembelian_buah3
+	GROUP BY 
+	    nama
+	order by total_buah desc
+2024-09-23 15:26:59.762 +07 [6544] LOG:  received fast shutdown request
+2024-09-23 15:26:59.767 +07 [6544] LOG:  aborting any active transactions
+2024-09-23 15:26:59.805 +07 [6544] LOG:  background worker "logical replication launcher" (PID 7652) exited with exit code 1
+2024-09-23 15:26:59.807 +07 [7588] LOG:  shutting down
+2024-09-23 15:26:59.913 +07 [6544] LOG:  database system is shut down

@@ -1,0 +1,151 @@
+2024-02-25 17:59:11.160 +07 [30964] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-02-25 17:59:11.164 +07 [20700] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-02-25 17:59:11.167 +07 [30604] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-02-25 17:59:11.169 +07 [34192] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-02-25 17:59:11.171 +07 [33400] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-02-25 17:59:11.172 +07 [14356] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-02-25 17:59:11.175 +07 [25736] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-02-25 17:59:11.175 +07 [28664] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-02-26 09:30:12.566 +07 [34092] ERROR:  function year(date) does not exist at character 202
+2024-02-26 09:30:12.566 +07 [34092] HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2024-02-26 09:30:12.566 +07 [34092] STATEMENT:  select  p.productid, p.productname, sum(od.quantity * p.unitprice) as total_value
+	from products p
+	join order_details od on p.productid = od.productid
+	join orders o on od.orderid = o.orderid
+	where  year (o.orderdate) = 1997
+	group  by p.productid, p.productname
+2024-02-26 09:47:59.752 +07 [34092] ERROR:  missing FROM-clause entry for table "p" at character 57
+2024-02-26 09:47:59.752 +07 [34092] STATEMENT:  select  c.customerid, c.contactname , sum(od.quantity * p.unitprice) as total_spent
+	from customers c
+	join orders o on c.customerid = o.customerid
+	join order_details od on o.orderid = od.orderid
+	group by c.customerid, c.contactname 
+	having sum(od.quantity * p.unitprice) > 5000
+2024-02-26 10:07:03.601 +07 [34092] ERROR:  function year(date) does not exist at character 209
+2024-02-26 10:07:03.601 +07 [34092] HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2024-02-26 10:07:03.601 +07 [34092] STATEMENT:  select c.customerid, c.contactname , sum(od.quantity * od.unitprice) as total_spent
+	from customers c
+	join orders o on c.customerid  = o.customerid 
+	join order_details od on o.orderid  = od.orderid 
+	where year(o.orderdate) = 1997 and month(o.orderdate) <= 6
+	group by c.customerid , c.contactname 
+	having sum(od.quantity*od.unitprice) > 5000
+2024-02-26 10:08:04.399 +07 [34092] ERROR:  syntax error at or near "from" at character 259
+2024-02-26 10:08:04.399 +07 [34092] STATEMENT:  select c.customerid, c.contactname , sum(od.quantity * od.unitprice) as total_spent
+	from customers c
+	join orders o on c.customerid  = o.customerid 
+	join order_details od on o.orderid  = od.orderid 
+	where extract (year from o.orderdate) = 1997 and (month from o.orderdate) <= 6
+	group by c.customerid , c.contactname 
+	having sum(od.quantity*od.unitprice) > 5000
+2024-02-26 10:08:12.560 +07 [34092] ERROR:  syntax error at or near "o" at character 259
+2024-02-26 10:08:12.560 +07 [34092] STATEMENT:  select c.customerid, c.contactname , sum(od.quantity * od.unitprice) as total_spent
+	from customers c
+	join orders o on c.customerid  = o.customerid 
+	join order_details od on o.orderid  = od.orderid 
+	where extract (year from o.orderdate) = 1997 and (month o.orderdate) <= 6
+	group by c.customerid , c.contactname 
+	having sum(od.quantity*od.unitprice) > 5000
+2024-02-26 14:26:27.171 +07 [33952] ERROR:  column reference "categoryid" is ambiguous at character 31
+2024-02-26 14:26:27.171 +07 [33952] STATEMENT:  select c.categoryname,
+	count(categoryid) as  numberofproducts 
+	from categories c 
+	join products p on c.categoryid = p.categoryid 
+	group  by c.categoryname 
+2024-02-26 16:19:40.931 +07 [15288] ERROR:  syntax error at or near "d" at character 150
+2024-02-26 16:19:40.931 +07 [15288] STATEMENT:  select s.companyname , p.productname , c.companyname , sum(od.quantity * od.unitprice) AS total_sales
+	from suppliers s
+	join orders o on od.orderid d = o.orderid 
+	join products p on s. = p.productid 
+	join order_details od on p.productid  = od.productid  
+	join customers c on o.customer_id = c.customer_id
+	group by rollup(supplier_name, product_name, customer_name)
+2024-02-26 16:19:50.124 +07 [15288] ERROR:  syntax error at or near "=" at character 186
+2024-02-26 16:19:50.124 +07 [15288] STATEMENT:  select s.companyname , p.productname , c.companyname , sum(od.quantity * od.unitprice) AS total_sales
+	from suppliers s
+	join orders o on od.orderid = o.orderid 
+	join products p on s. = p.productid 
+	join order_details od on p.productid  = od.productid  
+	join customers c on o.customer_id = c.customer_id
+	group by rollup(supplier_name, product_name, customer_name)
+2024-02-26 16:22:05.771 +07 [15288] ERROR:  missing FROM-clause entry for table "od" at character 139
+2024-02-26 16:22:05.771 +07 [15288] STATEMENT:  select s.companyname , p.productname , c.customerid  , sum(od.quantity * od.unitprice) AS total_sales
+	from suppliers s
+	join orders o on od.orderid = o.orderid 
+	join order_details od on p.productid  = od.productid  
+	join customers c on o.customerid  = c.customerid 
+	join products p on od.productid  = p.productid 
+	group by rollup(s.companyname , p.productid , c.companyname)
+2024-02-26 16:29:21.800 +07 [15288] ERROR:  column "p.productname" must appear in the GROUP BY clause or be used in an aggregate function at character 24
+2024-02-26 16:29:21.800 +07 [15288] STATEMENT:  select s.companyname , p.productname , c.customerid  , sum(od.quantity * od.unitprice) AS total_sales
+	from orders o
+	join order_details od on o.orderid = od.orderid 
+	join customers c on o.customerid  = c.customerid  
+	join products p on od.productid = p.productid 
+	join suppliers s on p.supplierid = s.supplierid 
+	group by rollup(s.companyname , p.productid , c.companyname)
+2024-02-26 16:30:29.031 +07 [15288] ERROR:  column "c.customerid" must appear in the GROUP BY clause or be used in an aggregate function at character 40
+2024-02-26 16:30:29.031 +07 [15288] STATEMENT:  select s.companyname , p.productname , c.customerid  , sum(od.quantity * od.unitprice) AS total_sales
+	from orders o
+	join order_details od on o.orderid = od.orderid 
+	join customers c on o.customerid  = c.customerid  
+	join products p on od.productid = p.productid  
+	join suppliers s on p.supplierid = s.supplierid 
+	group by rollup(s.companyname , p.productname  , c.companyname) 
+2024-02-26 16:54:46.042 +07 [35252] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-02-26 16:54:46.047 +07 [32968] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-02-26 16:54:46.047 +07 [37248] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-02-26 16:54:46.053 +07 [36124] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-02-26 16:54:46.053 +07 [40572] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-02-26 16:54:46.061 +07 [29596] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-02-26 16:54:46.062 +07 [40636] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-02-26 16:54:46.070 +07 [38988] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-02-26 16:54:46.072 +07 [9124] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-02-26 16:54:46.297 +07 [38416] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-02-26 17:05:44.412 +07 [39236] ERROR:  syntax error at or near "country" at character 81
+2024-02-26 17:05:44.412 +07 [39236] STATEMENT:  select country from suppliers s
+	union
+	select country from customers c 
+	order country asc 
+2024-02-26 17:16:42.851 +07 [39236] ERROR:  subquery in FROM must have an alias at character 41
+2024-02-26 17:16:42.851 +07 [39236] HINT:  For example, FROM (SELECT ...) [AS] foo.
+2024-02-26 17:16:42.851 +07 [39236] STATEMENT:  select country, count(*) as number
+	from(
+	select country from customers c
+	intersect
+	select country from suppliers s)
+	group by country 
+2024-02-26 17:17:40.845 +07 [39236] ERROR:  column "c.country" must appear in the GROUP BY clause or be used in an aggregate function at character 8
+2024-02-26 17:17:40.845 +07 [39236] STATEMENT:  select country, count(*) as number from customers c 
+	intersect
+	select country, count(*) as number from  suppliers s  
+	group by country 
+2024-02-26 17:20:32.050 +07 [39236] ERROR:  subquery in FROM must have an alias at character 42
+2024-02-26 17:20:32.050 +07 [39236] HINT:  For example, FROM (SELECT ...) [AS] foo.
+2024-02-26 17:20:32.050 +07 [39236] STATEMENT:  select country, count(*) as number
+	from (
+	    select country from customers
+	    intersect
+	    select country from suppliers
+	)
+	group by country 
+2024-02-26 17:20:37.451 +07 [39236] ERROR:  syntax error at or near "as" at character 2
+2024-02-26 17:20:37.451 +07 [39236] STATEMENT:   as countries

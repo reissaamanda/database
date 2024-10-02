@@ -1,0 +1,118 @@
+2024-09-10 17:05:28.230 +07 [22640] LOG:  starting PostgreSQL 14.11, compiled by Visual C++ build 1937, 64-bit
+2024-09-10 17:05:28.232 +07 [22640] LOG:  listening on IPv6 address "::", port 5432
+2024-09-10 17:05:28.233 +07 [22640] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-09-10 17:05:28.332 +07 [26812] LOG:  database system was shut down at 2024-09-10 16:59:07 +07
+2024-09-10 17:05:28.410 +07 [22640] LOG:  database system is ready to accept connections
+2024-09-10 21:31:44.185 +07 [2356] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-10 21:31:44.186 +07 [30496] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-10 21:31:44.188 +07 [29268] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-10 21:31:44.191 +07 [3516] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-10 21:31:44.192 +07 [32148] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-10 21:31:44.196 +07 [29760] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-10 21:31:44.198 +07 [4400] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-11 08:23:24.277 +07 [30984] ERROR:  relation "actor" does not exist at character 15
+2024-09-11 08:23:24.277 +07 [30984] STATEMENT:  select *
+	from actor
+2024-09-11 08:23:43.890 +07 [30984] ERROR:  relation "actor" does not exist at character 15
+2024-09-11 08:23:43.890 +07 [30984] STATEMENT:  select *
+	from actor;
+2024-09-11 09:18:34.110 +07 [21964] ERROR:  syntax error at or near "district" at character 49
+2024-09-11 09:18:34.110 +07 [21964] STATEMENT:  select *
+	from  address a 
+	order by address_id district 
+	limit 5
+2024-09-11 09:46:02.263 +07 [21964] ERROR:  syntax error at or near "rental_rate" at character 25
+2024-09-11 09:46:02.263 +07 [21964] STATEMENT:  select
+	title as judul
+	rental_rate as harga_sewa
+	from film f 
+2024-09-11 09:46:17.423 +07 [21964] ERROR:  syntax error at or near "rental_rate" at character 25
+2024-09-11 09:46:17.423 +07 [21964] STATEMENT:  select
+	title as judul
+	rental_rate as harga_sewa
+	from film f 
+2024-09-11 09:46:31.279 +07 [21964] ERROR:  syntax error at or near "rental_duration" at character 25
+2024-09-11 09:46:31.279 +07 [21964] STATEMENT:  select
+	title as judul
+	rental_duration as harga_sewa
+	from film f 
+2024-09-11 09:47:03.434 +07 [21964] ERROR:  syntax error at or near "rental_rate" at character 25
+2024-09-11 09:47:03.434 +07 [21964] STATEMENT:  select
+	title as judul
+	rental_rate as harga_sewa
+	from film f 
+2024-09-11 09:47:21.561 +07 [21964] ERROR:  syntax error at or near "title" at character 11
+2024-09-11 09:47:21.561 +07 [21964] STATEMENT:  select *
+	title as judul
+	rental_rate as harga_sewa
+	from film f 
+2024-09-11 09:47:25.764 +07 [21964] ERROR:  syntax error at or near "rental_rate" at character 26
+2024-09-11 09:47:25.764 +07 [21964] STATEMENT:  select 
+	title as judul
+	rental_rate as harga_sewa
+	from film f 
+2024-09-11 09:56:50.961 +07 [21964] ERROR:  syntax error at or near "transaksi" at character 56
+2024-09-11 09:56:50.961 +07 [21964] STATEMENT:  select
+	sum(amount) total_pendapatan,
+	count(*) jumlah transaksi,
+	min(amount) pembayaman minimum,
+	max(amount) pembayaran maksimul
+	avg(amount) pembyaran rata-rata
+	from payment p 
+2024-09-11 09:57:18.416 +07 [21964] ERROR:  syntax error at or near "avg" at character 134
+2024-09-11 09:57:18.416 +07 [21964] STATEMENT:  select
+	sum(amount) total_pendapatan,
+	count(*) jumlah_transaksi,
+	min(amount) pembayaran_minimum,
+	max(amount) pembayaran_maksimul
+	avg(amount) pembyaran_rata-rata
+	from payment p 
+2024-09-11 09:57:54.528 +07 [21964] ERROR:  syntax error at or near "avg" at character 134
+2024-09-11 09:57:54.528 +07 [21964] STATEMENT:  select
+	sum(amount) total_pendapatan,
+	count(*) jumlah_transaksi,
+	min(amount) pembayaran_minimum,
+	max(amount) pembayaran_maksimul
+	avg(amount) pembyaran_rata-rata
+	from payment p 
+2024-09-11 09:59:14.530 +07 [21964] ERROR:  syntax error at or near "AVG" at character 134
+2024-09-11 09:59:14.530 +07 [21964] STATEMENT:  select
+	sum(amount) total_pendapatan,
+	count(*) jumlah_transaksi,
+	min(amount) pembayaran_minimum,
+	max(amount) pembayaran_maksimul
+	AVG(amount) pembayaran_rata-rata
+	from payment p 
+2024-09-11 10:04:35.606 +07 [21964] ERROR:  syntax error at or near "-" at character 162
+2024-09-11 10:04:35.606 +07 [21964] STATEMENT:  select
+	sum(amount) total_pendapatan,
+	count(*) jumlah_transaksi,
+	min(amount) pembayaran_minimum,
+	max(amount) pembayaran_maksimul,
+	avg(amount) pembayaran_rata-rata
+	from payment p 
+2024-09-11 10:04:47.583 +07 [21964] ERROR:  syntax error at or near "-" at character 162
+2024-09-11 10:04:47.583 +07 [21964] STATEMENT:  select
+	sum(amount) total_pendapatan,
+	count(*) jumlah_transaksi,
+	min(amount) pembayaran_minimum,
+	max(amount) pembayaran_maksimul,
+	avg(amount) pembayaran_rata-rata,
+	from payment p 
+2024-09-11 11:36:22.477 +07 [21964] ERROR:  column "JOHN" does not exist at character 45
+2024-09-11 11:36:22.477 +07 [21964] STATEMENT:  select *
+	from actor a 
+	where first_name = "JOHN"
+2024-09-11 13:40:52.501 +07 [32088] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-11 13:40:52.502 +07 [15040] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-09-11 13:40:52.503 +07 [10700] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	

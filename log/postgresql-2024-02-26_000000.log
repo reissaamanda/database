@@ -1,0 +1,72 @@
+2024-02-26 17:42:24.359 +07 [39236] ERROR:  syntax error at or near ")" at character 95
+2024-02-26 17:42:24.359 +07 [39236] STATEMENT:  select COUNT(*)
+	from customers c
+	where c.city not in (select distinct city from suppliers)
+	)
+	
+2024-02-26 17:45:58.488 +07 [39236] ERROR:  syntax error at or near ")" at character 95
+2024-02-26 17:45:58.488 +07 [39236] STATEMENT:  select COUNT(*)
+	from customers c
+	where c.city not in (select distinct city from suppliers)
+	) as number_customer 
+2024-02-26 17:46:00.905 +07 [39236] ERROR:  syntax error at or near ")" at character 95
+2024-02-26 17:46:00.905 +07 [39236] STATEMENT:  select COUNT(*)
+	from customers c
+	where c.city not in (select distinct city from suppliers)
+	) as number_customer 
+2024-02-27 19:24:51.155 +07 [21864] ERROR:  syntax error at or near "1997" at character 257
+2024-02-27 19:24:51.155 +07 [21864] STATEMENT:  select companyname, contactname  from customers c 
+	where exists (select customerid  from orders o
+	where customerid = c.customerid and orderdate between '1997-04-01' AND '1997-04-30’) ;
+	
+	
+	WHERE customerid = customers.customerid AND
+	orderdate BETWEEN '1997-04-01' AND '1997-04-30’) 
+2024-02-27 20:43:26.424 +07 [34472] ERROR:  syntax error at or near "in" at character 61
+2024-02-27 20:43:26.424 +07 [34472] STATEMENT:  select companyname, contactname 
+	from customers
+	where not in (
+	    select customerid
+	    from orders
+	    where customerid = customers.customerid
+	    and orderdate between '1997-04-01' and '1997-04-30'
+	)
+2024-02-27 20:43:43.708 +07 [34472] ERROR:  syntax error at or near "in" at character 61
+2024-02-27 20:43:43.708 +07 [34472] STATEMENT:  select companyname, contactname 
+	from customers
+	where not in (
+	    select customerid
+	    from orders
+	    where customerid = customers.customerid
+	    and orderdate between '1997-04-01' and '1997-04-30'
+	)
+2024-02-27 20:43:48.208 +07 [34472] ERROR:  syntax error at or near "in" at character 61
+2024-02-27 20:43:48.208 +07 [34472] STATEMENT:  select companyname, contactname 
+	from customers
+	where not in(
+	    select customerid
+	    from orders
+	    where customerid = customers.customerid
+	    and orderdate between '1997-04-01' and '1997-04-30'
+	)
+2024-02-27 20:43:50.005 +07 [34472] ERROR:  syntax error at or near "in" at character 61
+2024-02-27 20:43:50.005 +07 [34472] STATEMENT:  select companyname, contactname 
+	from customers
+	where not in(
+	    select customerid
+	    from orders
+	    where customerid = customers.customerid
+	    and orderdate between '1997-04-01' and '1997-04-30'
+	)
+2024-02-27 20:57:49.897 +07 [34472] ERROR:  syntax error at or near "rata_rata_amount" at character 1
+2024-02-27 20:57:49.897 +07 [34472] STATEMENT:  rata_rata_amount
+2024-02-27 21:35:19.267 +07 [34472] ERROR:  invalid reference to FROM-clause entry for table "customers" at character 147
+2024-02-27 21:35:19.267 +07 [34472] HINT:  Perhaps you meant to reference the table alias "c".
+2024-02-27 21:35:19.267 +07 [34472] STATEMENT:  select customerid , companyname 
+	from customers c 
+	where customerid  not in(
+	    select customerid
+	    from orders o 
+	    where customerid = customers.customerid
+	    and orderdate between '1997-04-01' and '1997-04-30'
+	)

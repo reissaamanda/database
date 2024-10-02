@@ -1,0 +1,5 @@
+2024-05-16 12:48:39.632 +07 [6644] LOG:  starting PostgreSQL 14.11, compiled by Visual C++ build 1937, 64-bit
+2024-05-16 12:48:39.703 +07 [6644] LOG:  listening on IPv6 address "::", port 5432
+2024-05-16 12:48:39.703 +07 [6644] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-05-16 12:48:40.597 +07 [7608] LOG:  database system was shut down at 2024-05-16 10:31:36 +07
+2024-05-16 12:48:41.289 +07 [6644] LOG:  database system is ready to accept connections

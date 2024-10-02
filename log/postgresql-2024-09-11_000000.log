@@ -1,0 +1,86 @@
+2024-09-11 16:14:25.757 +07 [24040] ERROR:  relation "nilai_siswa" already exists
+2024-09-11 16:14:25.757 +07 [24040] STATEMENT:  CREATE TABLE nilai_siswa (
+	    id_siswa CHAR(5),
+	    nilai_mtk INTEGER,
+	    nilai_ipa INTEGER,
+	    nilai_bing INTEGER,
+	    nilai_bind INTEGER
+	)
+2024-09-11 16:15:18.322 +07 [24040] ERROR:  relation "nilai_siswa" already exists
+2024-09-11 16:15:18.322 +07 [24040] STATEMENT:  CREATE TABLE nilai_siswa (
+	    id_siswa CHAR(5),
+	    nilai_mtk INTEGER,
+	    nilai_ipa INTEGER,
+	    nilai_bing INTEGER,
+	    nilai_bind INTEGER
+	)
+2024-09-11 16:15:19.643 +07 [24040] ERROR:  relation "nilai_siswa" already exists
+2024-09-11 16:15:19.643 +07 [24040] STATEMENT:  CREATE TABLE nilai_siswa (
+	    id_siswa CHAR(5),
+	    nilai_mtk INTEGER,
+	    nilai_ipa INTEGER,
+	    nilai_bing INTEGER,
+	    nilai_bind INTEGER
+	)
+2024-09-11 16:15:52.325 +07 [24040] ERROR:  relation "nilai_siswa" already exists
+2024-09-11 16:15:52.325 +07 [24040] STATEMENT:  CREATE TABLE nilai_siswa (
+	    id_siswa CHAR(5),
+	    nilai_mtk INTEGER,
+	    nilai_ipa INTEGER,
+	    nilai_bing INTEGER,
+	    nilai_bind INTEGER
+	)
+2024-09-11 16:17:42.988 +07 [24040] ERROR:  syntax error at or near "ipa" at character 102
+2024-09-11 16:17:42.988 +07 [24040] STATEMENT:  select id_siswa, nilai_mtk. nilai_ipa, NIlai_bind
+	from nilai_siswa
+	where (nilai_mtk >= 75 or nilai ipa >=75 and nilai_bind > 60)
+2024-09-11 16:17:53.510 +07 [24040] ERROR:  syntax error at or near "ipa" at character 102
+2024-09-11 16:17:53.510 +07 [24040] STATEMENT:  select id_siswa, nilai_mtk. nilai_ipa, nilai_bind
+	from nilai_siswa
+	where (nilai_mtk >= 75 or nilai ipa >=75 and nilai_bind > 60)
+2024-09-11 16:18:16.461 +07 [24040] ERROR:  missing FROM-clause entry for table "nilai_mtk" at character 18
+2024-09-11 16:18:16.461 +07 [24040] STATEMENT:  select id_siswa, nilai_mtk. nilai_ipa, nilai_bind
+	from nilai_siswa
+	where (nilai_mtk >= 75 or nilai_ipa >=75 and nilai_bind > 60)
+2024-09-11 16:18:26.909 +07 [24040] ERROR:  missing FROM-clause entry for table "nilai_mtk" at character 18
+2024-09-11 16:18:26.909 +07 [24040] STATEMENT:  select id_siswa, nilai_mtk. nilai_ipa, nilai_bind
+	from nilai_siswa
+	where (nilai_mtk >= 75 or nilai_ipa >=75 and nilai_bind > 60)
+2024-09-11 16:18:36.692 +07 [24040] ERROR:  missing FROM-clause entry for table "nilai_mtk" at character 18
+2024-09-11 16:18:36.692 +07 [24040] STATEMENT:  select id_siswa, nilai_mtk. nilai_ipa, nilai_bind
+	from nilai_siswa
+	where (nilai_mtk >= 75 or nilai_ipa >= 75 and nilai_bind > 60)
+2024-09-11 16:18:55.126 +07 [24040] ERROR:  missing FROM-clause entry for table "nilai_mtk" at character 18
+2024-09-11 16:18:55.126 +07 [24040] STATEMENT:  select id_siswa, nilai_mtk. nilai_ipa, nilai_bind
+	from nilai_siswa
+	where (nilai_mtk >= 75 or nilai_ipa >= 75 and nilai_bind > 60)
+2024-09-11 16:19:19.962 +07 [24040] ERROR:  missing FROM-clause entry for table "nilai_mtk" at character 18
+2024-09-11 16:19:19.962 +07 [24040] STATEMENT:  select id_siswa, nilai_mtk. nilai_ipa, nilai_bind
+	from nilai_siswa
+	where (nilai_mtk >= 75 or nilai_ipa >= 75 and nilai_bind > 60)
+2024-09-11 16:21:00.441 +07 [24040] ERROR:  relation "nilai_siswa" already exists
+2024-09-11 16:21:00.441 +07 [24040] STATEMENT:  CREATE TABLE nilai_siswa (
+	    id_siswa CHAR(5),
+	    nilai_mtk INTEGER,
+	    nilai_ipa INTEGER,
+	    nilai_bing INTEGER,
+	    nilai_bind INTEGER
+	)
+2024-09-11 16:21:08.554 +07 [24040] ERROR:  missing FROM-clause entry for table "nilai_mtk" at character 18
+2024-09-11 16:21:08.554 +07 [24040] STATEMENT:  select id_siswa, nilai_mtk. nilai_ipa, nilai_bind
+	from nilai_siswa
+	where (nilai_mtk >= 75 or nilai_ipa >= 75 and nilai_bind > 60)
+2024-09-11 16:22:41.564 +07 [24040] ERROR:  missing FROM-clause entry for table "nilai_mtk" at character 18
+2024-09-11 16:22:41.564 +07 [24040] STATEMENT:  select id_siswa, nilai_mtk. nilai_ipa, nilai_bind
+	from nilai_siswa
+	where (nilai_mtk >= 75 or nilai_ipa >= 75 and nilai_bind > 60)
+2024-09-11 16:23:07.555 +07 [24040] ERROR:  missing FROM-clause entry for table "nilai_mtk" at character 18
+2024-09-11 16:23:07.555 +07 [24040] STATEMENT:  select id_siswa, nilai_mtk. nilai_ipa, nilai_bind
+	from nilai_siswa
+	where (nilai_mtk >= 75 or nilai_ipa >= 75 and nilai_bind > 60)
+2024-09-11 16:50:35.452 +07 [22640] LOG:  received fast shutdown request
+2024-09-11 16:50:35.456 +07 [22640] LOG:  aborting any active transactions
+2024-09-11 16:50:35.460 +07 [32924] ERROR:  canceling statement due to user request
+2024-09-11 16:50:35.477 +07 [22640] LOG:  background worker "logical replication launcher" (PID 32924) exited with exit code 1
+2024-09-11 16:50:35.478 +07 [24744] LOG:  shutting down
+2024-09-11 16:50:35.545 +07 [22640] LOG:  database system is shut down

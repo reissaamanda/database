@@ -1,0 +1,7 @@
+2024-07-13 22:52:03.302 +07 [5736] LOG:  starting PostgreSQL 14.11, compiled by Visual C++ build 1937, 64-bit
+2024-07-13 22:52:03.345 +07 [5736] LOG:  listening on IPv6 address "::", port 5432
+2024-07-13 22:52:03.346 +07 [5736] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-07-13 22:52:03.627 +07 [5736] LOG:  received fast shutdown request
+2024-07-13 22:52:04.317 +07 [2772] LOG:  database system was shut down at 2024-07-13 22:51:20 +07
+2024-07-13 22:52:05.038 +07 [6660] LOG:  shutting down
+2024-07-13 22:52:05.210 +07 [5736] LOG:  database system is shut down
